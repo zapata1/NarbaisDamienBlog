@@ -3,5 +3,6 @@ params:
   twitteruser: "spf13"
   sidebarrecentlimit: 5
 
-BaseURL: https://zapata1.github.io/NarbaisDamienBlog/
+Site:
+  BaseURL: https://zapata1.github.io/NarbaisDamienBlog/
 
