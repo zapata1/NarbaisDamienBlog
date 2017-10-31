@@ -2,5 +2,6 @@ params:
   copyrighthtml: "Copyright &#xA9; 2017 John Doe. All Rights Reserved."
   twitteruser: "spf13"
   sidebarrecentlimit: 5
-  BaseURL: https://zapata1.github.io/NarbaisDamienBlog/
+
+BaseURL: https://zapata1.github.io/NarbaisDamienBlog/
 
