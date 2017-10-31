@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe95de79-247a-49e1-8df7-0e4231c1ae8c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-base-theme" afterPath="$PROJECT_DIR$/themes/hugo-base-theme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-freelancer-theme" afterPath="$PROJECT_DIR$/themes/hugo-freelancer-theme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="js.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/partials/js.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="490">
@@ -55,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="js.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/layouts/partials/js.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modals.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/modals.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -493,12 +504,12 @@
       <workItem from="1503070800021" duration="651000" />
       <workItem from="1504141686440" duration="421000" />
       <workItem from="1509363157080" duration="2918000" />
-      <workItem from="1509488026744" duration="4396000" />
+      <workItem from="1509488026744" duration="4459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33015000" />
+    <option name="totallyTimeSpent" value="33078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="-17" width="1887" height="1098" extended-state="6" />
@@ -534,11 +545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/hugo-elate-theme/static/images/work_4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-elate-theme/static/images/work_7.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -863,14 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/theme.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -915,6 +913,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/modals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
