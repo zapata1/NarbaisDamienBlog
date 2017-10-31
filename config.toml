@@ -1,6 +1,7 @@
 # Site settings
 publishDir = "docs"
-baseurl = "https://example.org/"
+baseurl = "https://zapata1.github.io/NarbaisDamien/"
+#baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "Hugo Freelancer Theme"
 theme = "hugo-freelancer-theme"
