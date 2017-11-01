@@ -4,6 +4,7 @@
     <list default="true" id="fe95de79-247a-49e1-8df7-0e4231c1ae8c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-base-theme" afterPath="$PROJECT_DIR$/themes/hugo-base-theme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-freelancer-theme" afterPath="$PROJECT_DIR$/themes/hugo-freelancer-theme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -456,12 +457,12 @@
       <workItem from="1504141686440" duration="421000" />
       <workItem from="1509363157080" duration="2918000" />
       <workItem from="1509488026744" duration="4829000" />
-      <workItem from="1509530078434" duration="1732000" />
+      <workItem from="1509530078434" duration="4479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35180000" />
+    <option name="totallyTimeSpent" value="37927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="-17" width="1887" height="1098" extended-state="6" />
