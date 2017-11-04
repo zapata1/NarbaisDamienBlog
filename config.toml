@@ -41,7 +41,7 @@ theme = "hugo-freelancer-theme"
         # Copy your own image into './static/img/'' if you wish
         image = "Label5.png"
         name = "Mr. Narbais"
-        subtitle = "Blogger - Programmer - Student - Chef - NarcoTrafficante"
+        subtitle = "Blogger - Programmer - Student - Chef"
 
 
     [params.portfolio]
@@ -61,12 +61,12 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "Qui suis-je ?"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "Salut ! Moi c'est Damien, et je suis actuellement en 4ème année d'école d'ingénieur à Polytech Lille, en IMA (Informatique Microélectronique Automatique)"
+        right = "C'est la partie informatique qui me plais le plus dans cette formation. De ce fait, j'ai envie de réaliser et de mettre à jour régulièrement ce blog pour partager ce que j'apprends, surtout au niveau du machine learning."
 
         [params.about.button]
             text = "CV"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+            #link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
             icon = "download"
 
 
@@ -100,7 +100,7 @@ theme = "hugo-freelancer-theme"
         [params.footer.location]
             title = "Location"
             # Postal address (add as many lines as necessary)
-            address = ["France", "59800 Lille", "Fives"]
+            address = ["France", "59800 Lille", "Fives", "(Je reste mobile !)"]
 
         [params.footer.social]
             title = "Around the web"
@@ -117,6 +117,6 @@ theme = "hugo-freelancer-theme"
                 link=  "https://www.linkedin.com/in/damien-narbais-jaureguy/"
 
 
-        [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+        #[params.footer.credits]
+            #title = "About Freelancer"
+            #text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
