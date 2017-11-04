@@ -59,7 +59,7 @@ theme = "hugo-freelancer-theme"
 
 
     [params.about]
-        title = "Qui suis-je ?"
+        title = "Qui suis-je ? TEst toto"
         # The about text is splitted into a left and right column
         left = "Salut ! Moi c'est Damien, et je suis actuellement en 4ème année d'école d'ingénieur à Polytech Lille, en IMA (Informatique Microélectronique Automatique)"
         right = "C'est la partie informatique qui me plais le plus dans cette formation. De ce fait, j'ai envie de réaliser et de mettre à jour régulièrement ce blog pour partager ce que j'apprends, surtout au niveau du machine learning."
