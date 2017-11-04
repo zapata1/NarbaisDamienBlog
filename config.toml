@@ -13,8 +13,8 @@ theme = "hugo-freelancer-theme"
 
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-    name = "Mr. Hugo"
-    description = "My awesome description"
+    name = "Narbais Damien"
+    description = "Narbais Blog"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -27,7 +27,7 @@ theme = "hugo-freelancer-theme"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "bixente.narbais@gmail.com"
 
     # Custom assets
 	custom_css = []
@@ -39,7 +39,7 @@ theme = "hugo-freelancer-theme"
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        image = "profile.png"
+        image = "Label5.png"
         name = "Mr. Narbais"
         subtitle = "Blogger - Programmer - Student - Chef - NarcoTrafficante"
 
@@ -49,41 +49,42 @@ theme = "hugo-freelancer-theme"
         # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
-        title = "Projets"
+        title = "Mes projets"
 
         [params.portfolio.modal]
-            client = "Client"
+            client = ""
             date = "Date"
-            category = "Category"
+            category = "Informatique"
             buttontext = "Close"
 
 
     [params.about]
-        title = "About"
+        title = "Qui suis-je ?"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "Salut ! Moi c'est Damien, et je suis actuellement en 4ème année d'école d'ingénieur à Polytech Lille, en IMA (Informatique Microélectronique Automatique)"
+        right = "C'est la partie informatique qui me plais le plus dans cette formation. De ce fait, j'ai envie de réaliser et de mettre à jour régulièrement ce blog pour partager ce que j'apprends, surtout au niveau du machine learning."
 
         [params.about.button]
             text = "CV"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+            #link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
             icon = "download"
 
+    [params.blog]
+        title = "Blog" <--TODO: faire un onglet blog-->
 
     [params.contact]
         title = "Contact"
-
         # 'error' defines error messages for invalid inputs
         [params.contact.form.name]
-            text = "Name"
+            text = "Nom Prénom"
             error = "Please enter your name."
 
         [params.contact.form.email]
-            text = "Email Address"
+            text = "Adresse email"
             error = "Please enter your email address."
 
         [params.contact.form.phone]
-            text = "Phone Number"
+            text = "Numéro de téléphone"
             error = "Please enter your phone number."
 
         [params.contact.form.message]
@@ -98,9 +99,9 @@ theme = "hugo-freelancer-theme"
         copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
 
         [params.footer.location]
-            title = "Location"
+            title = "Localisation"
             # Postal address (add as many lines as necessary)
-            address = ["France", "59000 Lille", "Fivess"]
+            address = ["France", "59800 Lille", "Fives"]
 
         [params.footer.social]
             title = "Around the web"
@@ -109,13 +110,14 @@ theme = "hugo-freelancer-theme"
             # CSS class.
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+                link = "https://github.com/zapata1"
 
             [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
+                #icon = "fa-stack-overflow"
+                icon = "fa-linkedin"
+                link=  "https://www.linkedin.com/in/damien-narbais-jaureguy/"
 
 
-        [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+        #[params.footer.credits]
+            #title = "About Freelancer"
+            #text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
