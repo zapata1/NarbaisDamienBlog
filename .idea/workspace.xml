@@ -2,59 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe95de79-247a-49e1-8df7-0e4231c1ae8c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/A-aldaketa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/Flag_of_the_Basque.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/LinkedIn-Logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/Notre-Dame de Paris | Domaine d'intervention.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/aldaketa-v2-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/art.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/dog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/flag_france.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/flag_spanish.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/images/aldaketa-v2-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/images/hugo-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/images/hugo-now.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/images/hugo-now.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/images/hugo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/images/javascript.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/amalfi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/arcangues.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/band.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/bar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/basque-country-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/basque-country-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/basque-country.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/basque-country1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/bermeo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/calculator-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/coventry-garden.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/cross.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/espelette-pepper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/espelette-pepper2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/moi.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/people.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/puente-portugalete.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/restaurant.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/spectators-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/spectators.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/st-jean-pied-de-port.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/street-performer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/urban.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/libre-droit/whale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/lieu.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo_entreprise.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/maison1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/maison2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/phones.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/photo4.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/piment.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/piment2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/restaurant.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/temp1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/temp2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/temp3.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/temp4.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_saved.toml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/categories/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/css/freelancer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/A-aldaketa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/Flag_of_the_Basque.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/LinkedIn-Logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/Notre-Dame de Paris | Domaine d'intervention.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/aldaketa-v2-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/art.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/dog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/flag_france.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/flag_spanish.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/images/aldaketa-v2-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/images/hugo-logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/images/hugo-now.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/images/hugo-now.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/images/hugo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/images/javascript.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/amalfi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/arcangues.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/band.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/bar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/basque-country-.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/basque-country-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/basque-country.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/basque-country1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/bermeo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/calculator-.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/coventry-garden.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/cross.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/espelette-pepper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/espelette-pepper2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/moi.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/people.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/puente-portugalete.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/restaurant.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/spectators-.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/spectators.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/st-jean-pied-de-port.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/street-performer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/urban.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/libre-droit/whale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/lieu.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/logo_entreprise.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/maison1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/maison2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/phones.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/photo4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/piment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/piment2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/portfolio/cabin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/portfolio/cake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/portfolio/circus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/portfolio/game.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/portfolio/safe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/portfolio/submarine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/portfolio/whale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/restaurant.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/temp1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/temp2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/temp3.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/temp4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/cbpAnimatedHeader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/cbpAnimatedHeader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/classie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/contact_me.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/freelancer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/jqBootstrapValidation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/jquery-1.11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/js/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/tags/index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/theme.toml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-base-theme" afterPath="$PROJECT_DIR$/themes/hugo-base-theme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-freelancer-theme" afterPath="$PROJECT_DIR$/themes/hugo-freelancer-theme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -70,16 +105,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="theme.toml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/theme.toml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,21 +115,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/js.html">
+      <file leaf-file-name="theme.toml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/theme.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.toml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/theme.toml">
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/LICENSE">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/.editorconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,8 +178,28 @@
       <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+            <state relative-caret-position="1694">
+              <caret line="119" column="8" lean-forward="false" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_saved.toml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config_saved.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,6 +213,7 @@
       <find>publishdi</find>
       <find>exa</find>
       <find>example</find>
+      <find>perm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -280,102 +336,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hugo-freelancer-theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hugo-freelancer-theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hugo-freelancer-theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hugo-freelancer-theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -435,38 +395,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Website_narbais" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -610,16 +538,15 @@
       <workItem from="1509363157080" duration="2918000" />
       <workItem from="1509488026744" duration="4829000" />
       <workItem from="1509530078434" duration="6226000" />
-      <workItem from="1509786772824" duration="3691000" />
+      <workItem from="1509786772824" duration="5660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43365000" />
+    <option name="totallyTimeSpent" value="45334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="-17" width="1887" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24905047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -628,7 +555,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20927835" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2927835" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -651,13 +578,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/hugo-elate-theme/static/js/magnific-popup-options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-elate-theme/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -826,20 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2249">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -935,33 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/theme.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="1" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/theme.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1005,10 +888,58 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="1" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/hugo-freelancer-theme/theme.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_saved.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        <state relative-caret-position="1694">
+          <caret line="119" column="8" lean-forward="false" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
           <folding />
         </state>
       </provider>
