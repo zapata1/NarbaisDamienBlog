@@ -1,8 +1,8 @@
 modalID: 1
-title: Project Cabin
-date: 2014-07-13
-img: cabin.png
+title: Reconnaissance d'image - Compétition Robotique
+date: 2018-01-06
+img: projet-image-recognition-redimensionne.jpg
 client: Narbais Damien
 clientLink: "#"
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons](//sellfy.com/p/8Q9P/jV3VZ/"). On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+category: Reconnaissance d'Image
+description: C'est mon premier projet qui touche un peu au machine learning. L'objectif est de reconnaitre des machines pendant une compétition de Robotique. Pour cela, nous disposons d'une caméra et d'une carte Intel pour récupérer les informations nécessaires à la reconnaisZsance des machines. Ici j'utilise python et la librairie TensorFlow pour utiliser un algorithme de reconnaissance d'image. Voici le lien de mon projet de 4ème année https://projets-ima.plil.fr/mediawiki/index.php/IMA4_2017/2018_P44.
