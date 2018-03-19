@@ -5,7 +5,7 @@ buildDrafts = false
 canonifyURLs = true
 baseurl = "https://zapata1.github.io/NarbaisDamienBlog/"
 languageCode = "en-us"
-title = "Aldaketa"
+title = "Narbais Blog"
 # theme
 theme = "hugo-now"
 # Comment the themesDir option if you use this theme in production
