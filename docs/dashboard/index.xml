@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dashboards on Aldaketa</title>
-    <link>https://zapata1.github.io/Hugo_Aldaketa/dashboard/</link>
+    <link>https://zapata1.github.io/NarbaisDamienBlog/dashboard/</link>
     <description>Recent content in Dashboards on Aldaketa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Jul 2017 15:21:37 -0500</lastBuildDate>
     
-	<atom:link href="https://zapata1.github.io/Hugo_Aldaketa/dashboard/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/dashboard/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>https://zapata1.github.io/Hugo_Aldaketa/dashboard/blog/</link>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/dashboard/blog/</link>
       <pubDate>Mon, 03 Jul 2017 15:21:37 -0500</pubDate>
       
-      <guid>https://zapata1.github.io/Hugo_Aldaketa/dashboard/blog/</guid>
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/dashboard/blog/</guid>
       <description></description>
     </item>
     
