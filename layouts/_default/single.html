@@ -1,0 +1,58 @@
+<!--{{ partial "header" . }}-->
+<!--{{ partial "nav" . }}-->
+<!--<div class="container">-->
+  <!--<section class="section">-->
+    <!--<div class="container">-->
+      <!--<article class="article">-->
+        <!--{{ partial "post-metadata-single" . }}-->
+
+        <!--<div class="content">-->
+          <!--{{ partial "banner" . }}-->
+
+          <!--{{ partial "table-of-contents" . }}-->
+
+          <!--&lt;!&ndash; supports emoji &ndash;&gt;-->
+          <!--{{ .Content | emojify }}-->
+
+        <!--</div>-->
+      <!--</article>-->
+    <!--</div>-->
+  <!--</section>-->
+<!--</div>-->
+<!--{{ partial "paginate-single" . }}-->
+<!--{{ partial "footer" . }}-->
+
+
+
+
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<div class="container article">
+  <div class="row">
+    DEFAULT SINGLE <!--TODO: to be remove -->
+    {{ partial "post-metadata-single-up" . }}
+  </div>
+  <div class="row">
+    <div class="col-8">
+      <hr>
+      {{ partial "description" . }}
+      <br>
+      {{ partial "solution" . }}
+      <br>
+      {{ partial "result" . }}
+    </div>
+    <div class="col">
+      {{ partial "image" . }}
+      {{ partial "post-metadata-single-down" . }}
+    </div>
+  </div>
+  <div class="row justify-content-end">
+    <!--RAJOUTE LE NOM DE L'AUTEUR-->
+    <!--{{ if (ne ($.Param "displayauthor") true) }}-->
+    <!--<small class="text-muted">by {{ .Params.author | default .Site.Params.author }}</small>-->
+    <!--{{ end }}-->
+  </div>
+</div>
+
+{{ partial "paginate-single" . }}
+{{ partial "footer" . }}

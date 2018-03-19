@@ -1,0 +1,31 @@
+{{ $.Scratch.Add "labelClasses" "f6 b db mb1 mt3 sans-serif mid-gray" }}
+{{ $.Scratch.Add "inputClasses" "w-100 f5 pv3 ph3 bg-light-gray bn" }}
+
+<form action="https://formspree.io/bixente.narbais@gmail.com" method="POST">
+    <input type="hidden" name="_language" value="fr" />
+    <br>
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="name">Votre adresse mail</label>
+    <br>
+    <input type="email" name="_replyto" placeholder="votreadresse@example.com">
+    <br>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="name">Nom Prenom</label>
+    <br>
+    <input type="text" name="name" placeholder="Nom Prenom">
+    <br>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}"  for="name">Sujet du mail</label>
+    <br>
+    <input type="text" name="_subject" placeholder="Sujet du mail"/>
+    <br>
+
+    <label class="{{ $.Scratch.Get "labelClasses" }}" for="message">Message a envoyer</label>
+    <br>
+    <textarea id="message" name="message" placeholder="Votre message" class="{{ $.Scratch.Get "inputClasses" }}"></textarea>
+
+    <input type="text" name="_gotcha" style="display:none" />
+    <br>
+    <input type="submit" value="Envoyer">
+    <input type="hidden" name="_next" value="/Hugo_Aldaketa/" /> <!--TODO: redirige vers une pqge "email bien envoye"-->
+</form>
+

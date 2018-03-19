@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Aldaketa</title>
+    <link>https://zapata1.github.io/Hugo_Aldaketa/tags/hugo/</link>
+    <description>Recent content in Hugo on Aldaketa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://zapata1.github.io/Hugo_Aldaketa/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comment faire un site web statique avec Hugo et Git</title>
+      <link>https://zapata1.github.io/Hugo_Aldaketa/domaine-intervention/booster-asso/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zapata1.github.io/Hugo_Aldaketa/domaine-intervention/booster-asso/</guid>
+      <description>Parce que mes adhérents, mes administrateurs méritent une grande attention : comment puis je mener une ou des réflexions pour développer mon Association ? quelles voies sont possibles ? pour quels bénéfices escomptés ? comment réussir ?
+Lors d’un entretien, nous définirons votre besoin, vos attentes. Nous dessinerons la mise en oeuvre sur laquelle vous disposerez des outils pour franchir les différentes étapes de votre projet.</description>
+    </item>
+    
+  </channel>
+</rss>

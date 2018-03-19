@@ -1,15 +1,16 @@
-{{ "<!-- Header -->" | safeHTML }}
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <img class="img-responsive" src="img/{{ with .Site.Params.header.image }}{{ . }}{{ else }}profile.png{{ end }}" alt="">
-                <div class="intro-text">
-                    <span class="name">{{ with .Site.Params.header.name }}{{ . }}{{ end }}</span>
-                    <hr class="star-light">
-                    <span class="skills">{{ with .Site.Params.header.subtitle }}{{ . }}{{ end }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+<!DOCTYPE html>
+<!--<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">-->
+<head>
+    <link rel="icon" href="/img/A-aldaketa.png">
+    <title>Aldaketa</title>
+    <!--<link rel="canonical" href="{{ .Permalink }}">-->
+    <!--{{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}-->
+
+    {{ partial "includes.html" . }}
+</head>
+<body lang="en">
+
+
+<!--TODO: all tags have a ling for something-->
+<!--TODO: 1/2 in the domaines-->
+<!--TODO: mieux nous connqitre ICI q lq fin de lq pqge contact-->

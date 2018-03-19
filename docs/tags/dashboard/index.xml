@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashboard on Aldaketa</title>
+    <link>https://zapata1.github.io/Hugo_Aldaketa/tags/dashboard/</link>
+    <description>Recent content in Dashboard on Aldaketa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jul 2017 15:21:37 -0500</lastBuildDate>
+    
+	<atom:link href="https://zapata1.github.io/Hugo_Aldaketa/tags/dashboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://zapata1.github.io/Hugo_Aldaketa/dashboard/blog/</link>
+      <pubDate>Mon, 03 Jul 2017 15:21:37 -0500</pubDate>
+      
+      <guid>https://zapata1.github.io/Hugo_Aldaketa/dashboard/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
