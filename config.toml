@@ -1,4 +1,7 @@
 baseurl = "https://zapata1.github.io/NarbaisDamienBlog/"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "docs"
 title = "Accueil Damien Narbais"
 theme = "ghostwriter"
 languageCode = "en-us"
