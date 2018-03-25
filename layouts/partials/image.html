@@ -1,0 +1,5 @@
+<div class="img-projet">
+    {{ range .Params.image }}
+        <img src="{{ .src }}" alt="{{ .alt }}" width="400" height="400" class="img-thumbnail">
+    {{ end }}
+</div>

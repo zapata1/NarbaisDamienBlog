@@ -1,0 +1,13 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<div class="container">
+  <section class="section">
+      <br>
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "contact") }}
+      {{ range sort $paginator.Pages }}
+      {{ .Content }}
+      {{ end }}
+  </section>
+</div>
+
+{{ partial "footer" . }}

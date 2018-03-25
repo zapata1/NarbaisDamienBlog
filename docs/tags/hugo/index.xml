@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Narbais Blog</title>
+    <link>https://zapata1.github.io/NarbaisDamienBlog/tags/hugo/</link>
+    <description>Recent content in Hugo on Narbais Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comment faire un site web statique avec Hugo et Git</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/domaine-intervention/booster-asso/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/domaine-intervention/booster-asso/</guid>
+      <description>Article en cours d&amp;rsquo;écriture..</description>
+    </item>
+    
+  </channel>
+</rss>
