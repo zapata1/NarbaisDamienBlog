@@ -1,0 +1,6 @@
+<div class="post-metadata">
+    <p class="text-muted">{{ .Params.subtitle }}</p>
+    {{ if .Params.tags }}
+        {{ partial "tags" .Params.tags }}
+    {{ end }}
+</div>

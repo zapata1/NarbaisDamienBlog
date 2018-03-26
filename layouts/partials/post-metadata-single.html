@@ -1,0 +1,26 @@
+<!-- supports emoji -->
+<!--<h1 class="title"><a href="{{ .Permalink }}">{{ .Title | emojify }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>-->
+<!--<div class="post-metadata">-->
+    <!--{{ if (ne ($.Param "displayauthor") true) }}-->
+        <!--<small class="text-muted">by {{ .Params.author | default .Site.Params.author }}</small>-->
+    <!--{{ end }}-->
+    <!--<p class="text-muted">{{ .Params.subtitle }}</p>-->
+    <!--{{ if .Params.tags }}-->
+        <!--{{ partial "tags" .Params.tags }}-->
+    <!--{{ end }}-->
+    <!--<p class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i> {{ .Date.Format "January 2, 2006" }}</p>-->
+<!--</div>-->
+
+<h1 class="title"><a href="{{ .Permalink }}">{{ .Title | emojify }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>
+<p class="text-muted"><i class="fa fa-calendar" aria-hidden="true"></i> {{ .Date.Format "2 Janvier, 2006" }}</p>
+<div class="post-metadata">
+
+    <p class="text-muted">{{ .Params.subtitle }}</p>
+    {{ if .Params.tags }}
+    {{ partial "tags" .Params.tags }}
+    {{ end }}
+
+    {{ if (ne ($.Param "displayauthor") true) }}
+    <small class="text-muted">by {{ .Params.author | default .Site.Params.author }}</small>
+    {{ end }}
+</div>

@@ -1,0 +1,12 @@
+{{ if .Params.Result }}
+    <div class="row">
+        <div class="subtitle-project">Result :</div>
+    </div>
+    <div class="row">
+        <ul class="list-solution-result">
+            {{ range .Params.Result }}
+                <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+{{ end }}
