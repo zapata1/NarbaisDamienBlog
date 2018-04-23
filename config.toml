@@ -1,4 +1,9 @@
-baseurl = "https://zapata1.github.io/NarbaisDamienBlog/docs/"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "docs"
+buildDrafts = false
+canonifyURLs = true
+baseurl = "https://zapata1.github.io/NarbaisDamienBlog/"
 languageCode = "en-us"
 title = "Narbais Blog"
 # theme
