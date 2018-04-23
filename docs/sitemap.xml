@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/2018/03/22/journee_recherche_polytech/</loc>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/post/journee_recherche_polytech/</loc>
     <lastmod>2018-03-22T02:13:50+00:00</lastmod>
   </url>
   
@@ -25,6 +25,11 @@
   <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/project/projet4a_image_recognition/</loc>
     <lastmod>2018-01-01T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

@@ -7,7 +7,7 @@ baseurl = "https://zapata1.github.io/NarbaisDamienBlog/"
 languageCode = "en-us"
 title = "Narbais Blog"
 # theme
-theme = "hugo-now"
+theme = "ghostwriter"
 # Comment the themesDir option if you use this theme in production
 # themesDir = "../.."
 # google analytics

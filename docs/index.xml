@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Accueil Damien Narbais</title>
+    <title>Narbais Blog</title>
     <link>https://zapata1.github.io/NarbaisDamienBlog/</link>
-    <description>Recent content on Accueil Damien Narbais</description>
+    <description>Recent content on Narbais Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Damien Narbais</copyright>
     <lastBuildDate>Sun, 25 Mar 2018 02:13:50 +0000</lastBuildDate>
     
 	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/index.xml" rel="self" type="application/rss+xml" />
@@ -25,10 +24,10 @@ Activités -Sport : Ultimate frisbee, Natation, Rugby, Pelote -Danse : hip-hop, 
     
     <item>
       <title>Journée Recherche sur le Big Data à Polytech</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/2018/03/22/journee_recherche_polytech/</link>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/post/journee_recherche_polytech/</link>
       <pubDate>Thu, 22 Mar 2018 02:13:50 +0000</pubDate>
       
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/2018/03/22/journee_recherche_polytech/</guid>
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/post/journee_recherche_polytech/</guid>
       <description></description>
     </item>
     
@@ -38,7 +37,8 @@ Activités -Sport : Ultimate frisbee, Natation, Rugby, Pelote -Danse : hip-hop, 
       <pubDate>Tue, 20 Mar 2018 02:13:50 +0000</pubDate>
       
       <guid>https://zapata1.github.io/NarbaisDamienBlog/project/website_with_hugo_and_git/</guid>
-      <description>Introduction to Hugo Hugo is [&amp;hellip;]</description>
+      <description>Introduction to Hugo Hugo is [&amp;hellip;]
+Pour le thème que j&amp;rsquo;utilise il faut : -installer npm -la derniere version de node.js $wget -qO- https://deb.nodesource.com/setup_8.x | sudo bash - $sudo apt-get install -y nodejs</description>
     </item>
     
     <item>
