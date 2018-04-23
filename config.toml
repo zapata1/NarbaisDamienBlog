@@ -3,7 +3,7 @@ layoutDir = "layouts"
 publishDir = "docs"
 buildDrafts = false
 canonifyURLs = true
-baseurl = "https://zapata1.github.io/NarbaisDamienBlog/"
+baseurl = "https://zapata1.github.io/NarbaisDamienBlog/docs/"
 languageCode = "en-us"
 title = "Narbais Blog"
 # theme
