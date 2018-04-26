@@ -1,153 +1,182 @@
 <!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Java</title>
+        
+        <style>
 
-<head>
-    <link rel="icon" href="https://zapata1.github.io/NarbaisDamienBlog/img/libre-droit/sombrero.png">
-    <title>Narbais Blog</title>
-    
-    
+    html body {
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: white;
+    }
 
-    
-<link rel="stylesheet" href="https://zapata1.github.io/NarbaisDamienBlog/css/style.min.css">
-<link rel="stylesheet" href="https://zapata1.github.io/NarbaisDamienBlog/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://zapata1.github.io/NarbaisDamienBlog/css/aldaketa.css">
+    :root {
+        --accent: brown;
+        --border-width:  5px ;
+    }
 
-
-
-<script type="text/javascript" src="https://zapata1.github.io/NarbaisDamienBlog/js/caroussel.js"></script>
-</head>
-<body lang="en">
-
-
-
-
-
+</style>
 
 
-
-<div class="container-fluid header pb-4 p-lg-5">
-  <div class="row align-items-end">
-    <div class="col">
-      <div class="text-center slogan">
-        <a href="https://zapata1.github.io/NarbaisDamienBlog/accueil/"><img src="https://zapata1.github.io/NarbaisDamienBlog/img/photo_CV.png" /></a>
-        <p class="site-description">Etudiant en 4ème année d&#39;école d&#39;ingénieur</p>
-      </div>
-    </div>
-    <div class="col">
-      <div class="upstrap">
-        <div class="row">
-          
-          
-          <ul class="nav nav-tabs justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" href="https://zapata1.github.io/NarbaisDamienBlog/accueil/">Accueil</a>
-            </li>
-          </ul>
-          
-          <ul class="nav nav-tabs justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" href="https://zapata1.github.io/NarbaisDamienBlog/domaine-intervention/">Comment faire ?</a>
-            </li>
-          </ul>
-          
-          <ul class="nav nav-tabs justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" href="https://zapata1.github.io/NarbaisDamienBlog/projets/">Projets</a>
-            </li>
-          </ul>
-          
-          <ul class="nav nav-tabs justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" href="https://zapata1.github.io/NarbaisDamienBlog/contact/">Contact</a>
-            </li>
-          </ul>
-          
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<link rel="stylesheet" href="https://zapata1.github.io/NarbaisDamienBlog/css/main.css">
 
 
 
-<div class="container">
-    Sorry, this page is in maintenance 
-  <section class="section">
-      
-      
-      
-  </section>
-</div>
-<div class="container">
-  <div class="pagination">
-    
-      <button type="button" class="btn btn-secondary pull-left disabled"><i class="fa fa-chevron-left" aria-hidden="true"></i> Previous</button>
-    
-    
-      <button type="button" class="btn btn-secondary pull-left disabled">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-    
-  </div>
-</div>
-    
-      
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%20Condensed">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/BigData.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/C.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/NoSQL.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/TensorFlow.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.40" />
+        
+        <link href="https://zapata1.github.io/NarbaisDamienBlog/tags/java/index.xml" rel="alternate" type="application/rss+xml" title="Narbais Blog" />
+        <link href="https://zapata1.github.io/NarbaisDamienBlog/tags/java/index.xml" rel="feed" type="application/rss+xml" title="Narbais Blog" />
         
 
-            <div class="footstrap mt-4 p-4">
-                <div class="row justify-content-center">
-                    <div class="row align-items-center">
-                        <hr>
-                        
-                        <ul class="nav justify-content-center align-items-center">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="https://zapata1.github.io/NarbaisDamienBlog/accueil"><img src="../img/A-aldaketa.png" class="img-fluid" width="40" height="40" alt="A">ccueil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://zapata1.github.io/NarbaisDamienBlog/domaine-intervention">Comment faire ?</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://zapata1.github.io/NarbaisDamienBlog/projets">Projets</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://zapata1.github.io/NarbaisDamienBlog/contact">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active linkedin-logo" href="https://www.linkedin.com/in/damien-narbais-jaureguy/">linked<i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active linkedin-logo" href="https://github.com/zapata1">github<i class="fa fa-github" aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-XXXXXX');
+        </script>
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Java</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
                 </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="https://zapata1.github.io/NarbaisDamienBlog/">Home</a></li>
+                            
+                                <li><a href="https://zapata1.github.io/NarbaisDamienBlog/post/">Posts</a></li>
+                            
+                                <li><a href="https://zapata1.github.io/NarbaisDamienBlog/project/">Projects</a></li>
+                            
+                                <li><a href="https://zapata1.github.io/NarbaisDamienBlog/about/">About</a></li>
+                            
+                        </ul>
+                    
+
+                    
+
+                </div>
+
             </div>
-        
+
+        </nav>
+
+
+<main>
+
+    <h2>Java</h2>
+
+     <div class="item">
+
+    
+    
+    
+
+    
       
-    
-    
-<script src="https://zapata1.github.io/NarbaisDamienBlog/js/dist/vendor/jquery/jquery.min.js"></script>
-<script src="https://zapata1.github.io/NarbaisDamienBlog/js/dist/vendor/tether/tether.min.js"></script>
-<script src="https://zapata1.github.io/NarbaisDamienBlog/js/dist/vendor/bootstrap/bootstrap.min.js"></script>
-    
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-XXXXXX', 'auto');
-ga('send', 'pageview');
-</script>
+    <h4><a href="https://zapata1.github.io/NarbaisDamienBlog/project/tutorial_java_project/">Conception de Logiciel à Objects</a></h4>
+    <h5>Apprentissage de Java à travers un projet</h5>
+    
+    <a href="https://zapata1.github.io/NarbaisDamienBlog/tags/java"><kbd class="item-tag">java</kbd></a>
+    
 
-  </body>
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+      
+
+    <h4><a href="https://zapata1.github.io/NarbaisDamienBlog/project/projet4a_image_recognition/">Reconnaissance d&#39;Image pour une Compétition de Robotique</a></h4>
+    <h5>Projet de 4ème année</h5>
+    
+    <a href="https://zapata1.github.io/NarbaisDamienBlog/tags/java"><kbd class="item-tag">java</kbd></a>
+    
+
+</div>
+ 
+
+</main>
+
+
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
 </html>
+

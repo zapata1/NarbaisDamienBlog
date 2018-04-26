@@ -6,96 +6,64 @@
     <description>Recent content on Narbais Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2018 02:00:21 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 01 Feb 2018 02:13:50 +0000</lastBuildDate>
     
 	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Reconnaissance d&#39;Image pour une Compétition de Robotique</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/projets/obtention-pret/</link>
-      <pubDate>Sat, 06 Jan 2018 02:00:21 -0500</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/projets/obtention-pret/</guid>
-      <description>UN PETIT RESUME S&amp;rsquo;IMPOSE</description>
-    </item>
-    
-    <item>
       <title>Conception de Logiciel à Objects</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/projets/influence-tourisme-hp/</link>
-      <pubDate>Mon, 01 Jan 2018 02:00:21 -0500</pubDate>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/project/tutorial_java_project/</link>
+      <pubDate>Thu, 01 Feb 2018 02:13:50 +0000</pubDate>
       
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/projets/influence-tourisme-hp/</guid>
-      <description>&lt;p&gt;UN PETIT RESUME S&amp;rsquo;IMPOSE&lt;/p&gt;
-
-&lt;p&gt;solution:
-    – &amp;ldquo;Réalisation d’un diagnostic, analyse et hiérarchisation des problématiques&amp;rdquo;
-    – &amp;ldquo;Définition partagée des enjeux de l’entreprise et du positionnement&amp;rdquo;
-    – &amp;ldquo;Définition des objectifs et calendrier de réalisation&amp;rdquo;
-    – &amp;ldquo;Définition et mise en oeuvre d’une stratégie et plans d’actions commerciales&amp;rdquo;
-    – &amp;ldquo;Constitution de tableaux de bord de suivi des résultats&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;associated_projects:
-    - title: &amp;ldquo;hotel Biarritz&amp;rdquo;
-      link: &amp;ldquo;toto&amp;rdquo;
-    - title: &amp;ldquo;Hotel Mauleon&amp;rdquo;
-      link: &amp;ldquo;toto2&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/project/tutorial_java_project/</guid>
+      <description> Projet  Modélisation d&amp;rsquo;un circuit avec des portes logiques  Tâches réalisées  Réalisation d&amp;rsquo;une hiérarchie de classe Retour et détection d&amp;rsquo;erreur Création de Sondes  </description>
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/dashboard/blog/</link>
-      <pubDate>Mon, 03 Jul 2017 15:21:37 -0500</pubDate>
+      <title>Make a website with Hugo and Git</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/project/website_with_hugo_and_git/</link>
+      <pubDate>Thu, 01 Feb 2018 02:13:50 +0000</pubDate>
       
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/dashboard/blog/</guid>
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/project/website_with_hugo_and_git/</guid>
+      <description>Introduction to Hugo Hugo is [&amp;hellip;]
+Pour le thème que j&amp;rsquo;utilise il faut :
+-installer npm
+-la derniere version de node.js $wget -qO- https://deb.nodesource.com/setup_8.x | sudo bash - $sudo apt-get install -y nodejs
+-gérer le webpack</description>
+    </item>
+    
+    <item>
+      <title>Reconnaissance d&#39;Image pour une Compétition de Robotique</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/project/projet4a_image_recognition/</link>
+      <pubDate>Thu, 01 Feb 2018 02:13:50 +0000</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/project/projet4a_image_recognition/</guid>
+      <description> Description C&amp;rsquo;est mon premier projet qui touche un peu au machine learning. L&amp;rsquo;objectif est de reconnaitre des machines pendant une compétition de Robotique. Pour cela, nous disposons d&amp;rsquo;une caméra et d&amp;rsquo;une carte Intel pour récupérer les informations nécessaires à la reconnaissance des machines.
+Ici j&amp;rsquo;utilise python et la librairie TensorFlow pour utiliser un algorithme de reconnaissance d&amp;rsquo;image. Voici le lien de mon projet de 4ème année :
+https://projets-ima.plil.fr/mediawiki/index.php/IMA4_2017/2018_P44
+Tâches réalisées et outils utilisés  Définition des objectifs visés ROS Python avec TensorFlow OpenCV Wiki  </description>
+    </item>
+    
+    <item>
+      <title>A propos</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/about/about/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/about/about/</guid>
+      <description>Etudiant Bonjour, je suis étudiant en 4ème annéee d&amp;rsquo;école d&amp;rsquo;ingénieur à Polytech Lille, en formation IMA (Informatique, Microémectronique et Automatisme). Dans cette formation qui mélange à la fois une partie électronique et une partie informatique, je suis le plus intéréssé par cette dernière.
+En ce moment, mes recherches et mes projets sont orientés Machine learning et Big Data.
+Activités -Sport : Ultimate frisbee, Natation, Rugby, Pelote
+-Danse : hip-hop, rock</description>
+    </item>
+    
+    <item>
+      <title>Journée Recherche sur le Big Data à Polytech</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/post/journee_recherche_polytech/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/post/journee_recherche_polytech/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Comment faire un site web statique avec Hugo et Git</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/domaine-intervention/booster-asso/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/domaine-intervention/booster-asso/</guid>
-      <description>Article en cours d&amp;rsquo;écriture..</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/contact/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/contact/contact/</guid>
-      <description>Vous voulez en savoir plus ? N&amp;rsquo;hesitez pas à me contacter, je répondrais en moins de 3 jours.
-Votre adresse mail Nom Prenom Sujet du mail Message a envoyer   </description>
-    </item>
-    
-    <item>
-      <title>Qui somme nous ?</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/about-us/identite/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/about-us/identite/</guid>
-      <description>Notre méthodologie
-Une solution personnalisée et sur mesure.
-Une prestation de Qualité et toujours dans la mise en perspective.
-Une évaluation en cours de mission, pour une adaptation permanente, puis en fin avec un ensemble de recommandations.
-Vous êtes porteur de projet, créateur ou repreneur d’entreprise et vous avez besoin d’être accompagné. Vous êtes Artisan, Commerçant, Patron de TPEI-PMEI, Président ou Responsable d’une organisation, Elu d’une Collectivité et avez besoin de bénéficier d’un appui technique, stratégique, opérationnel, administratif, d’un conseil de proximité,n’hésitez pas à nous consulter et faire appel à nos services, nous étudierons ensemble votre projet et définirons sa faisabilité de réalisation.</description>
-    </item>
-    
-    <item>
-      <title>Qui somme nous ?</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/accueil/page-accueil/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/accueil/page-accueil/</guid>
-      <description>Notre méthodologie
-Une solution personnalisée et sur mesure.
-Une prestation de Qualité et toujours dans la mise en perspective.
-Une évaluation en cours de mission, pour une adaptation permanente, puis en fin avec un ensemble de recommandations.
-Vous êtes porteur de projet, créateur ou repreneur d’entreprise et vous avez besoin d’être accompagné. Vous êtes Artisan, Commerçant, Patron de TPEI-PMEI, Président ou Responsable d’une organisation, Elu d’une Collectivité et avez besoin de bénéficier d’un appui technique, stratégique, opérationnel, administratif, d’un conseil de proximité,n’hésitez pas à nous consulter et faire appel à nos services, nous étudierons ensemble votre projet et définirons sa faisabilité de réalisation.</description>
     </item>
     
   </channel>
