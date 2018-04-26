@@ -1,22 +1,14 @@
 +++
-title = "A propos"
-date = 2018-03-25T02:13:50Z
-author = "Damien Narbais"
-description = "Qui suis-je ?"
+title = "About"
+date = 2015-04-03T02:13:50Z
+author = "My Name"
+description = "Things about me."
 +++
 
-## Etudiant
+## About
 
-Bonjour, je suis étudiant en 4ème annéee d'école d'ingénieur à Polytech Lille, en formation IMA (Informatique, Microémectronique et Automatisme).
-Dans cette formation qui mélange à la fois une partie électronique et une partie informatique, je suis le plus intéréssé par cette dernière.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dolor in magna lobortis egestas. Suspendisse eu erat tempor, tristique neque eu, convallis nulla. Curabitur vel bibendum lacus, at semper mauris. Suspendisse aliquet commodo ex, sed sagittis metus aliquam id. Maecenas feugiat rutrum lorem vel imperdiet. Nullam ornare lectus ut enim finibus, et porttitor mi tincidunt. Aenean lacinia, leo quis vehicula eleifend, quam libero sagittis erat, at euismod augue mauris et sapien. Sed id vehicula lectus, sit amet auctor ipsum. Nunc sed massa vel ex condimentum aliquam in a enim. Cras enim sem, tristique eu enim ac, congue commodo mi. Integer quis orci at dolor blandit eleifend.
 
-En ce moment, mes recherches et mes projets sont orientés Machine learning et Big Data. 
+## School
 
-
-
-## Activités
-
--Sport : Ultimate frisbee, Natation, Rugby, Pelote
--Danse : hip-hop, rock
--Théâtre (impro et pièce)
--Musique : Txistu
+Sed quis pulvinar nisi, sed dapibus lacus. Mauris tempus ex ut ipsum facilisis interdum. Integer feugiat urna sed feugiat tempor. Quisque dictum vestibulum feugiat. Nunc nec est volutpat lorem imperdiet egestas sit amet ut orci. Aliquam venenatis neque ipsum, a placerat lectus cursus at. Donec pellentesque tellus hendrerit faucibus posuere. Etiam gravida consequat lectus, volutpat consectetur velit convallis nec. Praesent sagittis luctus dignissim.

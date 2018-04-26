@@ -1,18 +1,13 @@
-contentDir = "content"
-layoutDir = "layouts"
-publishDir = "docs"
-buildDrafts = false
-canonifyURLs = true
-baseurl = "https://zapata1.github.io/NarbaisDamienBlog/"
-title = "Accueil Damien Narbais"
+baseurl = "https://example.com/"
+title = "Ghostwriter example"
 theme = "ghostwriter"
 languageCode = "en-us"
-copyright = "Damien Narbais"
+copyright = "My Name"
 disqusShortname = "XXX"
 googleAnalytics = "XXX"
 
 [Author]
-    name = "Damien Narbais"
+    name = "My Name"
     profile = "https://google.com/+XXX"
 
 [Taxonomies]
@@ -20,15 +15,15 @@ googleAnalytics = "XXX"
 
 [Params]
     intro = true
-    headline = "Damien Narbais"
-    description = "Student Engineer"
-    github = "https://github.com/zapata1"
+    headline = "Ghostwriter example"
+    description = "Ghostwriter example description"
+    github = "https://github.com/XXX"
     gitlab = "https://gitlab.com/XXX"
-    linkedin = "https://www.linkedin.com/in/damien-narbais-jaureguy/"
+    linkedin = "https://linkedin.com/in/XXX/"
     gplus = "https://google.com/+XXX"
     twitter = "https://twitter.com/XXX"
     stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
-    email = "damien.narbais@gmail.com"
+    email = "XXX@example.com"
     opengraph = true
     shareTwitter = true
     shareFacebook = true
@@ -52,6 +47,11 @@ googleAnalytics = "XXX"
     weight = 2
 
 [[menu.main]]
-    name = "A propos"
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
     url = "/page/about/"
     weight = 4
