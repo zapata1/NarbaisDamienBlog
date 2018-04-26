@@ -1,51 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Narbais Blog</title>
+    <title>Tags on Accueil Damien Narbais</title>
     <link>https://zapata1.github.io/NarbaisDamienBlog/tags/</link>
-    <description>Recent content in Tags on Narbais Blog</description>
+    <description>Recent content in Tags on Accueil Damien Narbais</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>Damien Narbais</copyright>
     
 	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Bigdata</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/tags/bigdata/</link>
-      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/tags/bigdata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/tags/git/</link>
-      <pubDate>Thu, 01 Feb 2018 02:13:50 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/tags/hugo/</link>
-      <pubDate>Thu, 01 Feb 2018 02:13:50 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/tags/java/</link>
-      <pubDate>Thu, 01 Feb 2018 02:13:50 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/tags/java/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

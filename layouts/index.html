@@ -1,19 +1,18 @@
-{{ partial "header" . }}
+{{ partial "header.html" . }}
 
-<main>
+<div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
+    {{ partial "intro.html" . }}
 
-    <div class="intro">
+    <ol class="post-list">
+        {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
+        {{ range $pag.Pages }}
+            {{ partial "post-stub.html" . }}
+        {{ end }}
+    </ol>
 
-        {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
-
-        <h1>{{ .Site.Title }}</h1>
-
-        <h2>{{ markdownify .Site.Params.Description }}</h2>
-
-        <p> {{ markdownify .Site.Params.currently }}</p>
-
+    <div class="post-navigation">
+        {{ partial "pagination.html" . }}
     </div>
+</div>
 
-</main>
-
-{{ partial "footer" . }}
+{{ partial "footer.html" . }}

@@ -3,86 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/page/about/</loc>
+    <lastmod>2018-03-25T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/2018/03/22/journee_recherche_polytech/</loc>
+    <lastmod>2018-03-22T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/project/website_with_hugo_and_git/</loc>
+    <lastmod>2018-03-20T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/project/tutorial_java_project/</loc>
     <lastmod>2018-02-01T02:13:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/project/website_with_hugo_and_git/</loc>
-    <lastmod>2018-02-01T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/project/projet4a_image_recognition/</loc>
-    <lastmod>2018-02-01T02:13:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/about/about/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/post/journee_recherche_polytech/</loc>
-    <lastmod>2018-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/about/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/tags/bigdata/</loc>
-    <lastmod>2018-03-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/tags/git/</loc>
-    <lastmod>2018-02-01T02:13:50+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/tags/hugo/</loc>
-    <lastmod>2018-02-01T02:13:50+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zapata1.github.io/NarbaisDamienBlog/tags/java/</loc>
-    <lastmod>2018-02-01T02:13:50+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-01-01T02:13:50+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/</loc>
-    <lastmod>2018-02-01T02:13:50+00:00</lastmod>
+    <lastmod>2018-03-25T02:13:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/page/</loc>
+    <lastmod>2018-03-25T02:13:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/post/</loc>
-    <lastmod>2018-03-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-22T02:13:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/project/</loc>
-    <lastmod>2018-02-01T02:13:50+00:00</lastmod>
+    <lastmod>2018-03-20T02:13:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/tags/</loc>
-    <lastmod>2018-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -4,61 +4,54 @@ publishDir = "docs"
 buildDrafts = false
 canonifyURLs = true
 baseurl = "https://zapata1.github.io/NarbaisDamienBlog/"
+title = "Accueil Damien Narbais"
+theme = "ghostwriter"
 languageCode = "en-us"
-title = "Narbais Blog"
-# theme
-theme = "minimal"
-# Comment the themesDir option if you use this theme in production
-# themesDir = "../.."
-# google analytics
-GoogleAnalytics = "UA-XXXXXX"
-# sectionPagesMenu = "main"
+copyright = "Damien Narbais"
+disqusShortname = "XXX"
+googleAnalytics = "XXX"
 
+[Author]
+    name = "Damien Narbais"
+    profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Damien Narbais"
+    description = "Student Engineer"
+    github = "https://github.com/zapata1"
+    gitlab = "https://gitlab.com/XXX"
+    linkedin = "https://www.linkedin.com/in/damien-narbais-jaureguy/"
+    gplus = "https://google.com/+XXX"
+    twitter = "https://twitter.com/XXX"
+    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    email = "damien.narbais@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
+    name = "Blog"
     url = "/"
-    name = "Home"
     weight = 1
 
 [[menu.main]]
-    url = "/post/"
-    name = "Posts"
+    name = "Projects"
+    url = "/project/"
     weight = 2
 
 [[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 3
-
-[[menu.main]]
-    url = "/About/"
-    name = "About"
+    name = "A propos"
+    url = "/page/about/"
     weight = 4
-
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
-[params]
-  description = "Etudiant en 4ème année d'école d'ingénieur"
-  author = "Damien Narbais"
-  lieu = "Lille"
-  keywords = ["hugo-now", "hugo"]
-  avatar = "/img/photo_CV.png"
-  displayauthor = false
-  # pygments
-  PygmentsUseClasses = true
-  PygmentsCodeFences = true
-  # pagination
-  paginate = 10
-  paginatePath = "page"
-  currently = "Bienvenue sur mon chantier encore en construction !"
-  githubUsername = "zapata1"
-  accent = "brown"
-  showBorder = true
-  backgroundColor = "white"
-  font = "Roboto Condensed" # should match the name on Google Fonts!
-  highlight = true
-  highlightStyle = "solarized-dark"
-  highlightLanguages = ["BigData", "java", "C", "python", "NoSQL", "TensorFlow"]

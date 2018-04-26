@@ -1,15 +1,8 @@
-{{ partial "header" . }}
+{{ partial "header.html" . }}
 
-<main>
+<div class="container">
+    {{ partial "intro.html" . }}
+    <p class="error">Oh, this page does not exist. You can head back to <a href="{{ .Site.BaseURL }}">homepage</a>.</p>
+</div>
 
-    <div class="intro">
-
-        <h1>¯\_(ツ)_/¯</h1>
-
-        <h2>Page not found</h2>
-
-    </div>
-
-</main>
-
-{{ partial "footer" . }}
+{{ partial "footer.html" . }}
