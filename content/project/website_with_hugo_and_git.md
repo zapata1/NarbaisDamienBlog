@@ -1,9 +1,12 @@
-+++
-title = "Make a website with Hugo and Git"
-description = "Create your Website in less than 10 steps"
-date = 2018-03-20T02:13:50Z
-author = "Damien Narbais"
-+++
+---
+title: "Make a website with Hugo and Git"
+description: "Create your Website in less than 10 steps"
+date: 2018-02-01T02:13:50Z
+author: "Damien Narbais"
+tags: ["git", "hugo"]
+weight: 1
+draft: false
+---
 
 ## Introduction to Hugo
 
