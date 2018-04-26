@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Narbais Blog</title>
+    <link>https://zapata1.github.io/NarbaisDamienBlog/tags/java/</link>
+    <description>Recent content in Java on Narbais Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 02:00:21 -0500</lastBuildDate>
+    
+	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conception de Logiciel à Objects</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/projets/influence-tourisme-hp/</link>
+      <pubDate>Mon, 01 Jan 2018 02:00:21 -0500</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/projets/influence-tourisme-hp/</guid>
+      <description>&lt;p&gt;UN PETIT RESUME S&amp;rsquo;IMPOSE&lt;/p&gt;
+
+&lt;p&gt;solution:
+    – &amp;ldquo;Réalisation d’un diagnostic, analyse et hiérarchisation des problématiques&amp;rdquo;
+    – &amp;ldquo;Définition partagée des enjeux de l’entreprise et du positionnement&amp;rdquo;
+    – &amp;ldquo;Définition des objectifs et calendrier de réalisation&amp;rdquo;
+    – &amp;ldquo;Définition et mise en oeuvre d’une stratégie et plans d’actions commerciales&amp;rdquo;
+    – &amp;ldquo;Constitution de tableaux de bord de suivi des résultats&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;associated_projects:
+    - title: &amp;ldquo;hotel Biarritz&amp;rdquo;
+      link: &amp;ldquo;toto&amp;rdquo;
+    - title: &amp;ldquo;Hotel Mauleon&amp;rdquo;
+      link: &amp;ldquo;toto2&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

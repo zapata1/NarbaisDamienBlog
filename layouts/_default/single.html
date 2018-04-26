@@ -1,30 +1,58 @@
+<!--{{ partial "header" . }}-->
+<!--{{ partial "nav" . }}-->
+<!--<div class="container">-->
+  <!--<section class="section">-->
+    <!--<div class="container">-->
+      <!--<article class="article">-->
+        <!--{{ partial "post-metadata-single" . }}-->
+
+        <!--<div class="content">-->
+          <!--{{ partial "banner" . }}-->
+
+          <!--{{ partial "table-of-contents" . }}-->
+
+          <!--&lt;!&ndash; supports emoji &ndash;&gt;-->
+          <!--{{ .Content | emojify }}-->
+
+        <!--</div>-->
+      <!--</article>-->
+    <!--</div>-->
+  <!--</section>-->
+<!--</div>-->
+<!--{{ partial "paginate-single" . }}-->
+<!--{{ partial "footer" . }}-->
+
+
+
+
 {{ partial "header" . }}
+{{ partial "nav" . }}
+<div class="container article">
+  <div class="row">
+    DEFAULT SINGLE <!--TODO: to be remove -->
+    {{ partial "post-metadata-single-up" . }}
+  </div>
+  <div class="row">
+    <div class="col-8">
+      <hr>
+      {{ partial "description" . }}
+      <br>
+      {{ partial "solution" . }}
+      <br>
+      {{ partial "result" . }}
+    </div>
+    <div class="col">
+      {{ partial "image" . }}
+      {{ partial "post-metadata-single-down" . }}
+    </div>
+  </div>
+  <div class="row justify-content-end">
+    <!--RAJOUTE LE NOM DE L'AUTEUR-->
+    <!--{{ if (ne ($.Param "displayauthor") true) }}-->
+    <!--<small class="text-muted">by {{ .Params.author | default .Site.Params.author }}</small>-->
+    <!--{{ end }}-->
+  </div>
+</div>
 
-<main>
-
-    {{ partial "list-item" . }}
-
-    <br> <div class="text-justify">{{ .Content }}</div>
-
-    <!-- related posts with the same tags -->
-    {{ $related := first 3 (where (where (where .Site.Pages.ByDate.Reverse ".Type" "==" "post") ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
-
-    {{ if $related }}
-
-        <h4 class="page-header">Related</h4>
-
-        {{ range $related }} {{ partial "list-item" . }} {{ end }}
-
-    {{ end }}
-
-    {{ if and .Site.DisqusShortname (not .Params.disableComments) }}
-
-        <h4 class="page-header">Comments</h4>
-
-        {{ template "_internal/disqus.html" . }}
-
-    {{ end }}
-
-</main>
-
-{{ partial "footer.html" . }}
+{{ partial "paginate-single" . }}
+{{ partial "footer" . }}

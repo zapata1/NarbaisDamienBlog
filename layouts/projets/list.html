@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<div class="container">
+  <section class="section">
+      <br>
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "projets") }}
+      {{ range sort $paginator.Pages }}
+      <article>
+        {{ partial "post-metadata-list" . }}
+        <!--{{ .Content }}-->
+        <hr>
+      </article>
+      {{ end }}
+  </section>
+</div>
+{{ partial "paginate-list" . }}
+{{ partial "footer" . }}
