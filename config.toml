@@ -1,6 +1,8 @@
+contentDir = "content"
+layoutDir = "layouts"
 publishDir = "docs"
-# buildDrafts = false
-# canonifyURLs = true
+buildDrafts = false
+canonifyURLs = true
 baseURL = "https://zapata1.github.io/NarbaisDamienBlog/"
 languageCode = "en-us"
 title = "Damien Narbais"
