@@ -1,9 +1,39 @@
-        <footer>
+    <!--<div class="wrapper-footer">-->
+      <!--<div class="container-fluid">-->
+        <!--<footer class="footer">-->
 
-            <p class="copyright text-muted">{{ .Site.Params.copyright | default "&copy; All rights reserved. Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal)" | markdownify }}</p>
-
-        </footer>
-       
-    </body>
-
+            <div class="footstrap mt-4 p-4">
+                <div class="row justify-content-center">
+                    <div class="row align-items-center">
+                        <hr>
+                        <!--<img src="img/photo4.jpeg" alt="photo Test" class="img-thumbnail" class="rounded float-right">-->
+                        <ul class="nav justify-content-center align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/accueil"><img src="../img/A-aldaketa.png" class="img-fluid" width="40" height="40" alt="A">ccueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/domaine-intervention">Comment faire ?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/projets">Projets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active linkedin-logo" href="https://www.linkedin.com/in/damien-narbais-jaureguy/">linked<i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active linkedin-logo" href="https://github.com/zapata1">github<i class="fa fa-github" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <!--</footer>-->
+      <!--</div>-->
+    <!--</div>-->
+    {{ partial "javascript.html" . }}
+    {{ partial "analytics.html" . }}
+  </body>
 </html>
