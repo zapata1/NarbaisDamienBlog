@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Accueil Damien Narbais</title>
+    <link>https://zapata1.github.io/NarbaisDamienBlog/page/</link>
+    <description>Recent content in Pages on Accueil Damien Narbais</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Damien Narbais</copyright>
+    <lastBuildDate>Sun, 25 Mar 2018 02:13:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A propos</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/page/about/</link>
+      <pubDate>Sun, 25 Mar 2018 02:13:50 +0000</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/page/about/</guid>
+      <description>Etudiant Bonjour, je suis étudiant en 4ème annéee d&amp;rsquo;école d&amp;rsquo;ingénieur à Polytech Lille, en formation IMA (Informatique, Microémectronique et Automatisme). Dans cette formation qui mélange à la fois une partie électronique et une partie informatique, je suis le plus intéréssé par cette dernière.
+En ce moment, mes recherches et mes projets sont orientés Machine learning et Big Data.
+Activités -Sport : Ultimate frisbee, Natation, Rugby, Pelote -Danse : hip-hop, rock -Théâtre (impro et pièce) -Musique : Txistu</description>
+    </item>
+    
+  </channel>
+</rss>
