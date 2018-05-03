@@ -1,12 +1,17 @@
-name = "Minimal"
+name = "ghostwriter"
 license = "MIT"
-licenselink = "https://github.com/calintat/minimal/blob/master/LICENSE.md"
-description = "Personal blog theme powered by Hugo"
-homepage = "http://github.com/calintat/minimal/"
-tags = ["blog", "minimal", "personal", "responsive"]
-features = ["responsive"]
-min_version = "0.24.1"
+licenselink = "https://github.com/jbub/ghostwriter/blob/master/LICENSE.md"
+description = "A fork of simple AJAX driven theme for the Ghost blogging platform ported to Hugo."
+homepage = "https://github.com/jbub/ghostwriter"
+tags = ["blog", "technical", "personal"]
+features = ["blog", "technical", "personal"]
+min_version = 0.37
 
 [author]
-  name = "Calin Tataru"
-  homepage = "https://calintat.github.io/"
+    name = "Juraj Bubniak"
+    homepage = "https://github.com/jbub"
+
+[original]
+    author = "roryg"
+    homepage = "http://ghost.jollygoodthemes.com/ghostwriter/"
+    repo = "https://github.com/roryg/ghostwriter"

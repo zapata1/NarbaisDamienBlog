@@ -1,12 +1,9 @@
----
-title: "Reconnaissance d'Image pour une Compétition de Robotique"
-description: "Projet de 4ème année"
-date: 2018-02-01T02:13:50Z
-author: "Damien Narbais"
-tags: ["java"]
-weight: 1
-draft: false
----
++++
+title = "Reconnaissance d'Image pour une Compétition de Robotique"
+description = "Projet de 4ème année"
+date = 2018-01-01T02:13:50Z
+author = "Damien Narbais"
++++
 
 ## Description
 
