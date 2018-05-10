@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Accueil Damien Narbais</title>
-    <link>https://zapata1.github.io/NarbaisDamienBlog/post/</link>
-    <description>Recent content in Posts on Accueil Damien Narbais</description>
+    <title>Tensorflow Ros on Accueil Damien Narbais</title>
+    <link>https://zapata1.github.io/NarbaisDamienBlog/tags/tensorflow-ros/</link>
+    <description>Recent content in Tensorflow Ros on Accueil Damien Narbais</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Damien Narbais</copyright>
     <lastBuildDate>Mon, 23 Apr 2018 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/tags/tensorflow-ros/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,15 +22,6 @@
 La première étape consiste à repérer des &amp;lsquo;MPS&amp;rsquo;, qui sont des machines avec lesquelles le robotino devra agir, à l&amp;rsquo;aide de QR tag.
 Pour la seconde étape, le robot connait l&amp;rsquo;emplacement des MPS et il doit d&amp;rsquo;interagir avec pour obtenir des points.
 Objectif Mon but était de reconnaitre ces MPS (il y a 5 types), sans utiliser le QR tag.</description>
-    </item>
-    
-    <item>
-      <title>Journée Recherche sur le Big Data à Polytech</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/2018/03/22/journee_recherche_polytech/</link>
-      <pubDate>Thu, 22 Mar 2018 02:13:50 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/2018/03/22/journee_recherche_polytech/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -11,5 +11,14 @@
 	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Tensorflow Ros</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/tags/tensorflow-ros/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/tags/tensorflow-ros/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

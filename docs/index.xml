@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Damien Narbais</copyright>
-    <lastBuildDate>Sun, 25 Mar 2018 02:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Apr 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Participation à la Robocup 2018 à Magdeburg</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/2018/04/23/participation_robocup/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/2018/04/23/participation_robocup/</guid>
+      <description>COMPETITION Le but de la compétition est de programmer des Robotinos pour effectuer deux principales tâches lors de match avec une autre équipe.
+La première étape consiste à repérer des &amp;lsquo;MPS&amp;rsquo;, qui sont des machines avec lesquelles le robotino devra agir, à l&amp;rsquo;aide de QR tag.
+Pour la seconde étape, le robot connait l&amp;rsquo;emplacement des MPS et il doit d&amp;rsquo;interagir avec pour obtenir des points.
+Objectif Mon but était de reconnaitre ces MPS (il y a 5 types), sans utiliser le QR tag.</description>
+    </item>
     
     <item>
       <title>A propos</title>
@@ -18,9 +30,8 @@
       <pubDate>Sun, 25 Mar 2018 02:13:50 +0000</pubDate>
       
       <guid>https://zapata1.github.io/NarbaisDamienBlog/page/about/</guid>
-      <description>Etudiant Bonjour, je suis étudiant en 4ème annéee d&amp;rsquo;école d&amp;rsquo;ingénieur à Polytech Lille, en formation IMA (Informatique, Microémectronique et Automatisme). Dans cette formation qui mélange à la fois une partie électronique et une partie informatique, je suis le plus intéréssé par cette dernière.
-En ce moment, mes recherches et mes projets sont orientés Machine learning et Big Data.
-Activités -Sport : Ultimate frisbee, Natation, Rugby, Pelote -Danse : hip-hop, rock -Théâtre (impro et pièce) -Musique : Txistu</description>
+      <description>Actuellement Bonjour, je suis étudiant en 4ème annéee d&amp;rsquo;école d&amp;rsquo;ingénieur à Polytech Lille, en formation IMA (Informatique, Microémectronique et Automatisme). Dans cette formation qui mélange à la fois une partie électronique et une partie informatique, je suis le plus intéréssé par cette dernière.
+En ce moment, mes recherches et mes projets sont orientés Machine learning et Big Data. L&amp;rsquo;an prochain, je souhaite me spécialiser dans ces domaines. Cela va être possible avec mon futur semestres à Madrid.</description>
     </item>
     
     <item>
@@ -33,16 +44,16 @@ Activités -Sport : Ultimate frisbee, Natation, Rugby, Pelote -Danse : hip-hop, 
     </item>
     
     <item>
-      <title>Make a website with Hugo and Git</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/project/website_with_hugo_and_git/</link>
+      <title>Faire et heberger un site web gratuit avec hugo et git</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/project/faire_heberger_site_hugo_git/</link>
       <pubDate>Tue, 20 Mar 2018 02:13:50 +0000</pubDate>
       
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/project/website_with_hugo_and_git/</guid>
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/project/faire_heberger_site_hugo_git/</guid>
       <description>Introduction to Hugo Hugo is [&amp;hellip;]
 Pour le thème que j&amp;rsquo;utilise il faut :
 -installer npm
--la derniere version de node.js $wget -qO- https://deb.nodesource.com/setup_8.x | sudo bash - $sudo apt-get install -y nodejs
--gérer le webpack</description>
+-la derniere version de node.js
+ $wget -qO- https://deb.nodesource.com/setup_8.x | sudo bash - $sudo apt-get install -y nodejs  -gérer le webpack</description>
     </item>
     
     <item>

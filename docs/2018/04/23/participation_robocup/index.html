@@ -3,17 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Reconnaissance d&#39;Image pour une Compétition de Robotique &middot; Damien Narbais</title>
-        <meta name="description" content="Projet de 4ème année">
+        <title>Participation à la Robocup 2018 à Magdeburg &middot; Damien Narbais</title>
+        <meta name="description" content="Compétition de Robotique">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="generator" content="Hugo 0.40" />
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="Reconnaissance d&#39;Image pour une Compétition de Robotique">
-<meta property="og:description" content="Projet de 4ème année">
+        <meta property="og:title" content="Participation à la Robocup 2018 à Magdeburg">
+<meta property="og:description" content="Compétition de Robotique">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://zapata1.github.io/NarbaisDamienBlog/project/projet4a_image_recognition/">
+<meta property="og:url" content="https://zapata1.github.io/NarbaisDamienBlog/2018/04/23/participation_robocup/">
         <link rel="stylesheet" href="https://zapata1.github.io/NarbaisDamienBlog/dist/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -82,47 +82,64 @@ ga('send', 'pageview');
 
 
 <div class="container">
-    <article class="post-container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
         <header class="post-header">
-    <h1 class="post-title">Reconnaissance d&#39;Image pour une Compétition de Robotique</h1>
+    <h1 class="post-title" itemprop="name headline">Participation à la Robocup 2018 à Magdeburg</h1>
     
-        <p class="post-description">Projet de 4ème année</p>
+        <p class="post-description" itemprop="description">Compétition de Robotique</p>
     
+    <p class="post-date">
+        <span>Published <time datetime="2018-04-23" itemprop="datePublished">Mon, Apr 23, 2018</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="https://google.com/&#43;XXX" itemprop="url" rel="author">Damien Narbais</a>
+            </span>
+        </span>
+    </p>
 </header>
 
-        <div class="post-content clearfix">
+        <div class="post-content clearfix" itemprop="articleBody">
     
 
     
 
-<h2 id="description">Description</h2>
+<h2 id="competition">COMPETITION</h2>
 
-<p>C&rsquo;est mon premier projet qui touche un peu au machine learning.
-L&rsquo;objectif est de reconnaitre des machines pendant une compétition de Robotique.
-Pour cela, nous disposons d&rsquo;une caméra et d&rsquo;une carte Intel pour récupérer les informations nécessaires à la reconnaissance des machines.</p>
+<p>Le but de la compétition est de programmer des Robotinos pour effectuer deux principales tâches lors de match avec une autre équipe.</p>
 
-<p>Ici j&rsquo;utilise python et la librairie TensorFlow pour utiliser un algorithme de reconnaissance d&rsquo;image. Voici le lien de mon projet de 4ème année :</p>
+<p>La première étape consiste à repérer des &lsquo;MPS&rsquo;, qui sont des machines avec lesquelles le robotino devra agir, à l&rsquo;aide de QR tag.</p>
 
-<p><a href="https://projets-ima.plil.fr/mediawiki/index.php/IMA4_2017/2018_P44">https://projets-ima.plil.fr/mediawiki/index.php/IMA4_2017/2018_P44</a></p>
+<p>Pour la seconde étape, le robot connait l&rsquo;emplacement des MPS et il doit d&rsquo;interagir avec pour obtenir des points.</p>
 
-<h2 id="tâches-réalisées-et-outils-utilisés">Tâches réalisées et outils utilisés</h2>
+<h2 id="objectif">Objectif</h2>
 
-<ul>
-<li>Définition des objectifs visés</li>
-<li>ROS</li>
-<li>Python avec TensorFlow</li>
-<li>OpenCV</li>
-<li>Wiki</li>
-</ul>
+<p>Mon but était de reconnaitre ces MPS (il y a 5 types), sans utiliser le QR tag. Ce n&rsquo;est pas nécessaire pour le moment, mais les règles évoluent chaques annéees et donc les membres de l&rsquo;ARPL ont voulu anticiper une prochaine modification.</p>
+
+<p>Pour cela, j&rsquo;ai utilisé ROS et la librairie TensorFlow.</p>
+
+<h2 id="remerciement">REMERCIEMENT</h2>
+
+<p>Je souhaite d&rsquo;abord remercier l&rsquo;équipe de l&rsquo;ARPL (l&rsquo;Association de Robotique de Polytech Lille) de m&rsquo;avoir fait participer à cette compétition, qui a été très intéressante.</p>
+
+<p>Pendant ces 5 jours intensifs, j&rsquo;ai appris beaucoup : sur la compétition, sur les moyens et les outils déployés par l&rsquo;ARPL, dans une très bone ambiance.</p>
 
 </div>
 
         <footer class="post-footer clearfix">
     
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="https://zapata1.github.io/NarbaisDamienBlog/tags/tensorflow-ros/">TensorFlow, ROS</a>
+            
+        </p>
+    
 
     <div class="share">
         
-            <a class="icon-twitter" href="https://twitter.com/share?text=Reconnaissance%20d%27Image%20pour%20une%20Comp%c3%a9tition%20de%20Robotique&url=https%3a%2f%2fzapata1.github.io%2fNarbaisDamienBlog%2fproject%2fprojet4a_image_recognition%2f"
+            <a class="icon-twitter" href="https://twitter.com/share?text=Participation%20%c3%a0%20la%20Robocup%202018%20%c3%a0%20Magdeburg&url=https%3a%2f%2fzapata1.github.io%2fNarbaisDamienBlog%2f2018%2f04%2f23%2fparticipation_robocup%2f"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fa fa-twitter"></i>
                 <span class="hidden">Twitter</span>
@@ -130,7 +147,7 @@ Pour cela, nous disposons d&rsquo;une caméra et d&rsquo;une carte Intel pour r�
         
 
         
-            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzapata1.github.io%2fNarbaisDamienBlog%2fproject%2fprojet4a_image_recognition%2f"
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzapata1.github.io%2fNarbaisDamienBlog%2f2018%2f04%2f23%2fparticipation_robocup%2f"
                 onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                 <i class="fa fa-facebook"></i>
                 <span class="hidden">Facebook</span>
@@ -138,7 +155,7 @@ Pour cela, nous disposons d&rsquo;une caméra et d&rsquo;une carte Intel pour r�
         
 
         
-            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fzapata1.github.io%2fNarbaisDamienBlog%2fproject%2fprojet4a_image_recognition%2f"
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fzapata1.github.io%2fNarbaisDamienBlog%2f2018%2f04%2f23%2fparticipation_robocup%2f"
               onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
               <i class="fa fa-google-plus"></i>
                 <span class="hidden">Google+</span>
@@ -147,6 +164,31 @@ Pour cela, nous disposons d&rsquo;une caméra et d&rsquo;une carte Intel pour r�
         
     </div>
 </footer>
+
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "XXX" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
     </article>
 </div>
 

@@ -13,16 +13,16 @@
     
     
     <item>
-      <title>Make a website with Hugo and Git</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/project/website_with_hugo_and_git/</link>
+      <title>Faire et heberger un site web gratuit avec hugo et git</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/project/faire_heberger_site_hugo_git/</link>
       <pubDate>Tue, 20 Mar 2018 02:13:50 +0000</pubDate>
       
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/project/website_with_hugo_and_git/</guid>
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/project/faire_heberger_site_hugo_git/</guid>
       <description>Introduction to Hugo Hugo is [&amp;hellip;]
 Pour le thème que j&amp;rsquo;utilise il faut :
 -installer npm
--la derniere version de node.js $wget -qO- https://deb.nodesource.com/setup_8.x | sudo bash - $sudo apt-get install -y nodejs
--gérer le webpack</description>
+-la derniere version de node.js
+ $wget -qO- https://deb.nodesource.com/setup_8.x | sudo bash - $sudo apt-get install -y nodejs  -gérer le webpack</description>
     </item>
     
     <item>
