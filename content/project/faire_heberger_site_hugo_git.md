@@ -5,7 +5,7 @@ date = 2018-03-20T02:13:50Z
 author = "Damien Narbais"
 +++
 
-## Introduction to Hugo
+# Introduction to Hugo
 
 Hugo is [...]
 

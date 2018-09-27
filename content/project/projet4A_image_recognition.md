@@ -5,7 +5,7 @@ date = 2018-01-01T02:13:50Z
 author = "Damien Narbais"
 +++
 
-## Description
+# Description
 
   C'est mon premier projet qui touche un peu au machine learning.
 L'objectif est de reconnaitre des machines pendant une compétition de Robotique.
@@ -15,7 +15,7 @@ Ici j'utilise python et la librairie TensorFlow pour utiliser un algorithme de r
 
 https://projets-ima.plil.fr/mediawiki/index.php/IMA4_2017/2018_P44
 
-## Tâches réalisées et outils utilisés
+# Tâches réalisées et outils utilisés
 
 - Définition des objectifs visés
 - ROS
