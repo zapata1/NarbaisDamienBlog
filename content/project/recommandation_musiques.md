@@ -1,7 +1,7 @@
 +++
-title = "Conception de Logiciel à Objects"
-description = "Recommandation de musiques"
-date = 2018-10-01T02:13:50Z
+title = "Big Data : Recommandation de Musiques"
+description = "Recommandation de musiques, basée sur les écoutes d'un utilisateur"
+date = 2018-09-30T02:13:50Z
 author = "Damien Narbais"
 +++
 # Projet :

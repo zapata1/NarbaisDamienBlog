@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Damien Narbais</copyright>
-    <lastBuildDate>Mon, 23 Apr 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 30 Sep 2018 02:13:50 +0000</lastBuildDate>
     
 	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Big Data : Recommandation de Musiques</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/project/recommandation_musiques/</link>
+      <pubDate>Sun, 30 Sep 2018 02:13:50 +0000</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/project/recommandation_musiques/</guid>
+      <description>Projet : En général, les algorithmes qui recommandent de nouvelles musiques se basent sur les notes que l&amp;rsquo;utilisateur a donné aux chansons qu&amp;rsquo;il a écouté.
+Exemple : Tom a mis 4 étoiles à l&amp;rsquo;album de Ska-p.
+Le but ici, est de faire des recommandations en s&amp;rsquo;appuyant sur ce que l&amp;rsquo;utilisateur a écouté.
+Exemple : Tom a écouté un titre de Ska-p.
+Ici, peut être que Tom n&amp;rsquo;a pas aimé ce titre, et c&amp;rsquo;est tout l&amp;rsquo;enjeux du projet.</description>
+    </item>
     
     <item>
       <title>Participation à la Robocup 2018 à Magdeburg</title>
@@ -22,17 +35,6 @@
 La première étape consiste à repérer des &amp;lsquo;MPS&amp;rsquo;, qui sont des machines avec lesquelles le robotino devra agir, à l&amp;rsquo;aide de QR tag.
 Pour la seconde étape, le robot connait l&amp;rsquo;emplacement des MPS et il doit d&amp;rsquo;interagir avec pour obtenir des points.
 Objectif Mon but était de reconnaitre ces MPS (il y a 5 types), sans utiliser le QR tag.</description>
-    </item>
-    
-    <item>
-      <title>A propos</title>
-      <link>https://zapata1.github.io/NarbaisDamienBlog/page/about/</link>
-      <pubDate>Sun, 25 Mar 2018 02:13:50 +0000</pubDate>
-      
-      <guid>https://zapata1.github.io/NarbaisDamienBlog/page/about/</guid>
-      <description>Eté 2018 Cette été (2018), j&amp;rsquo;ai effectué un stage de 4 mois chez Cat-Amania, une entreprise de services numérique dynamique en expansion.
-Mes missions se sont orientées autour d&amp;rsquo;application web utilisant principalement du php et des requêtes SQL.
-Ca a été une expérience très enrichissante d&amp;rsquo;un point de vue technique et humain. En effet, à Cat-Amania, tout le monde à sa place, chacun à peu contribuer au projet, tout est discutable.</description>
     </item>
     
     <item>
@@ -76,6 +78,17 @@ Pour le thème que j&amp;rsquo;utilise il faut :
 Ici j&amp;rsquo;utilise python et la librairie TensorFlow pour utiliser un algorithme de reconnaissance d&amp;rsquo;image. Voici le lien de mon projet de 4ème année :
 https://projets-ima.plil.fr/mediawiki/index.php/IMA4_2017/2018_P44
 Tâches réalisées et outils utilisés  Définition des objectifs visés ROS Python avec TensorFlow OpenCV Wiki  </description>
+    </item>
+    
+    <item>
+      <title>A propos</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/page/about/</link>
+      <pubDate>Fri, 20 Jan 2017 02:13:50 +0000</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/page/about/</guid>
+      <description>Eté 2018 Cette été (2018), j&amp;rsquo;ai effectué un stage de 4 mois chez Cat-Amania, une entreprise de services numérique dynamique en expansion.
+Mes missions se sont orientées autour d&amp;rsquo;application web utilisant principalement du php et des requêtes SQL.
+Ca a été une expérience très enrichissante d&amp;rsquo;un point de vue technique et humain. En effet, à Cat-Amania, tout le monde à sa place, chacun à peu contribuer au projet, tout est discutable.</description>
     </item>
     
   </channel>

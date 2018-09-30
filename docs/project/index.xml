@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Damien Narbais</copyright>
-    <lastBuildDate>Tue, 20 Mar 2018 02:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Sep 2018 02:13:50 +0000</lastBuildDate>
     
 	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Big Data : Recommandation de Musiques</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/project/recommandation_musiques/</link>
+      <pubDate>Sun, 30 Sep 2018 02:13:50 +0000</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/project/recommandation_musiques/</guid>
+      <description>Projet : En général, les algorithmes qui recommandent de nouvelles musiques se basent sur les notes que l&amp;rsquo;utilisateur a donné aux chansons qu&amp;rsquo;il a écouté.
+Exemple : Tom a mis 4 étoiles à l&amp;rsquo;album de Ska-p.
+Le but ici, est de faire des recommandations en s&amp;rsquo;appuyant sur ce que l&amp;rsquo;utilisateur a écouté.
+Exemple : Tom a écouté un titre de Ska-p.
+Ici, peut être que Tom n&amp;rsquo;a pas aimé ce titre, et c&amp;rsquo;est tout l&amp;rsquo;enjeux du projet.</description>
+    </item>
     
     <item>
       <title>Faire et heberger un site web gratuit avec hugo et git</title>
