@@ -95,21 +95,107 @@ ga('send', 'pageview');
 
     
 
-<h1 id="introduction-to-hugo">Introduction to Hugo</h1>
+<h1 id="introduction">Introduction</h1>
 
-<p>Hugo is [&hellip;]</p>
+<p>Bonjour à toutes et à tous !</p>
 
-<p>Pour le thème que j&rsquo;utilise il faut :</p>
+<p>Dans cet article, nous allons voir comment créer son site web en seulement 10 étapes. C’est accessible à tout le monde (que vous ayez déjà fait ou non de l’informatique). Cela dure environ 1h00 et vous pouvez le faire en plusieurs fois donc : lancez-vous !</p>
 
-<p>-installer npm</p>
+<h1 id="etape-0-les-outils-utilisés">Etape 0 : Les outils utilisés</h1>
 
-<p>-la derniere version de node.js</p>
+<p>Avant de débuter, je voulais vous présenter rapidement les outils que nous allons utiliser. Il s’agit de Github et Hugo.</p>
 
-<pre><code>  $wget -qO- https://deb.nodesource.com/setup_8.x | sudo bash -
-  $sudo apt-get install -y nodejs
-</code></pre>
+<p>Github est un site de partage de code. C’est une sorte de google doc/drive mais pour le code. On va s’en servir pour mettre notre code dessus et héberger notre site.
+Je vous préviens de suite : l’hébergement du site web est gratuit, par contre, vous ne pourrez pas lui donner l’url que vous voulez (www.monBlog.com). Et oui, en contre partie, vous aurez une adresse de la forme :<br />
+<a href="https://zapata1.github.io/NarbaisDamienBlog/">https://zapata1.github.io/NarbaisDamienBlog/</a> ou <a href="https://zapata1.github.io/NarbaisDamienBlog/">https://zapata1.github.io/NarbaisDamienBlog/</a></p>
 
-<p>-gérer le webpack</p>
+<p>Hugo est la structure de notre site web que nous allons utiliser. Nous avons choisi celui la car le principe d’utilisation est simple (nous allons voir ça dans l’étape XX) et qu’il existe déjà beaucoup de thèmes déjà fait qui pourront correspondre (au moins en partie) à ce que vous voulez obtenir comme site web.</p>
+
+<p>Il vous faudra un environnement Linux. Pour windows, soyez patient, ça arrive bientot.</p>
+
+<h1 id="etape-1-github-inscription">Etape 1 : GitHub : Inscription</h1>
+
+<p>Tout d’abord, il vous faudra un compte github (<a href="https://github.com/">https://github.com/</a>).<br />
+Dans notre cas, nous en avons un qui s’appelle beParrots.</p>
+
+<p>TODO</p>
+
+<h1 id="etape-2-hugo-installation-de-l-environnement">Etape 2 : Hugo : Installation de l’environnement</h1>
+
+<p>Vous allez maintenant devoir faire quelque commande pour installer l’environnement de travaille.
+TODO</p>
+
+<h1 id="etape-3-hugo-principe">Etape 3 : Hugo : Principe</h1>
+
+<p>Bon, maintenant que tout est en place, c’est bien beau mais qu’est ce que c’est Hugo ? Si vous le savez déjà, vous pouvez passer à l’étape suivante. Sinon, il est nécessaire de comprendre comment est organisé notre site.<br />
+Hugo est un framework qui va gérer la structure de notre site web.<br />
+Il va le décomposer en 6 dossiers, qui ont chacun une  :   <a href="https://gohugo.io/getting-started/directory-structure/">https://gohugo.io/getting-started/directory-structure/</a>
+- archétypes
+  - permet de créer la structure de nos fichiers (nous verrons cela plus en détail dans la partie XX).<br />
+Par exemple, on aura un archétype tutoriel, un autre blog et un autre article.
+- content
+    - contient tous les fichiers textes que nous allons créer.<br />
+Dans l’exemple précédent, on aura 3 sous dossiers : 1 qui contiendra les tutoriels, un autre les blogs, et le dernier les articles.
+- layout
+    - contient les fichiers qui permettent l’affichage.<br />
+Par exemple, on aura un fichier pour l&rsquo;entête de la page, un autre pour afficher les tutoriels, un autre pour les articles&hellip;
+- thème
+    - Ou se trouvera la base de notre thème
+- static
+    - Qui stocke tout ce qui est statique : les images, les fichiers CSS (fichiers qui permettent de définir le design, les couleurs.. de votre site), les fichiers JS (qui permettent de faire un peu d’animation comme : surligner un titre quand on passe la souris dessus…)</p>
+
+<h1 id="etape-4-hugo-choisir-un-thème">Etape 4 : Hugo : Choisir un thème</h1>
+
+<p>Maintenant que vous avez pris connaissance des bases de hugo, il va falloir choisir un thème pour commencer à écrire nos articles comme on le souhaite.</p>
+
+<p>Vous vous dites peut être : “Quoi ? Mais je voulais faire mon site comme je veux !”. Pas de panique, choisir un thème ne veut pas dire que vous ne pourrez pas le modifier. Cependant, je vous conseille de partir d’un thème qui vous plaît. On verra par la suite comment le personnaliser.</p>
+
+<p>Libre à vous de choisir ce qui vous correspond en allant ici :   <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>.<br />
+L’avantage c’est que l’on peut tester la plupart des thèmes avant de les choisir. Il suffit de cliquer sur l’image d’un thème, puis de cliquer sur ‘Demo’.</p>
+
+<p>Dans notre exemple, nous allons utiliser le thème : Min_night   (<a href="https://themes.gohugo.io/min_night/">https://themes.gohugo.io/min_night/</a>).</p>
+
+<h1 id="etape-5-hugo-mise-en-marche-en-local">Etape 5 : Hugo : Mise en marche en local</h1>
+
+<p>Ce thème est bien car la documentation est assez bien faite.<br />
+Il vous faut donc suivre les étapes pour avoir une mise en production locale.</p>
+
+<p>Aller dans le répertoire que vous voulez. Ouvrez un terminal et tapez les commandes suivantes :</p>
+
+<p><code>hugo new site monSite</code><br />
+<code>cd monSite</code><br />
+<code>git init</code><br />
+<code>git submodule add https://github.com/nathancday/min_night.git themes/min_night</code><br />
+<code>cp -r themes/min_night/exampleSite/* .</code>  ATTENTION il manque l&rsquo;étoile (*) dans la<br />
+documentation et sans elle vous ne verrez rien</p>
+
+<p>On va, ici, faire fonctionner notre site web mais en local. C’est à dire que vous seul, sur votre ordinateur, pourra le voir.</p>
+
+<p><code>hugo server -D</code><br />
+Allez à l’adresse : <a href="http://localhost:1313/">http://localhost:1313/</a>.</p>
+
+<p>Si vous visualisez le thème que vous avez choisi c’est bon parfait. Dans le cas contraire,, n’hésitez pas à nous mettre en commentaire votre problème. Nous pouvons vous aider.</p>
+
+<h1 id="etape-6-github-création-du-dépot-git">Etape 6 : Github : création du dépot Git</h1>
+
+<p>Maintenant que votre site marche en local, ça veut dire que nous allons pouvoir le faire marcher sur internet, enfin !</p>
+
+<p>Si le titre vous fais peur, n’ayez crainte ! On va simplement mettre tous nos fichiers sur Git (la sorte de google doc/drive mais pour le code).</p>
+
+<p>Pour cela il faut &hellip;</p>
+
+<h1 id="etape-7-github-activer-le-serveur">Etape 7 : Github : Activer le serveur</h1>
+
+<p>Faire la génération du ‘docs’<br />
+choisir dans les parametres le docs<br />
+choisir un nom de domaine<br />
+Tester</p>
+
+<h1 id="etape-8-hugo-votre-site">Etape 8 : Hugo : Votre site</h1>
+
+<p>Il ne reste plus qu’a écrire vos articles dans la section aproprié./ modifer le theme/ le changer &hellip;
+Puis pusher tout ça sur Git
+Le serveur est mis a jour</p>
 
 </div>
 

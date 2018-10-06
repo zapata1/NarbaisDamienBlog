@@ -1,7 +1,7 @@
 +++
 title = "TP - Créer et gérer des machines virtuelles, Linux (VM)"
-description = "Compétition de Robotique"
-date = 2018-10-3
+description = "Centros de Datos y Procesos de Sistema - CDPS"
+date = 2018-09-03
 tags = ["CDPS,VM,Linux"]
 author = "Damien Narbais"
 +++

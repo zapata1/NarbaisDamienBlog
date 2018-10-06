@@ -26,6 +26,17 @@ Ici, peut être que Tom n&amp;rsquo;a pas aimé ce titre, et c&amp;rsquo;est tou
     </item>
     
     <item>
+      <title>TP - Créer et gérer des machines virtuelles, Linux (VM)</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/2018/09/03/cdps_tp1/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/2018/09/03/cdps_tp1/</guid>
+      <description>Objectif du TP Prise en main, compréhension et comparaison de différents types de machines virtuelles. - Connaitre les principes de base de la virtualisation Linux, avec KVM et LXC - Gerer des machines virtuelles en utilisant une interface graphique et la ligne de commande
+1 - Gestion de VM KVM avec une interface graphique On a commencé par créer des VM au format raw.
+On a ensuite utilise le format QCOW2.</description>
+    </item>
+    
+    <item>
       <title>Participation à la Robocup 2018 à Magdeburg</title>
       <link>https://zapata1.github.io/NarbaisDamienBlog/2018/04/23/participation_robocup/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0200</pubDate>
@@ -52,11 +63,9 @@ Objectif Mon but était de reconnaitre ces MPS (il y a 5 types), sans utiliser l
       <pubDate>Tue, 20 Mar 2018 02:13:50 +0000</pubDate>
       
       <guid>https://zapata1.github.io/NarbaisDamienBlog/project/faire_heberger_site_hugo_git/</guid>
-      <description>Introduction to Hugo Hugo is [&amp;hellip;]
-Pour le thème que j&amp;rsquo;utilise il faut :
--installer npm
--la derniere version de node.js
- $wget -qO- https://deb.nodesource.com/setup_8.x | sudo bash - $sudo apt-get install -y nodejs  -gérer le webpack</description>
+      <description>Introduction Bonjour à toutes et à tous !
+Dans cet article, nous allons voir comment créer son site web en seulement 10 étapes. C’est accessible à tout le monde (que vous ayez déjà fait ou non de l’informatique). Cela dure environ 1h00 et vous pouvez le faire en plusieurs fois donc : lancez-vous !
+Etape 0 : Les outils utilisés Avant de débuter, je voulais vous présenter rapidement les outils que nous allons utiliser.</description>
     </item>
     
     <item>

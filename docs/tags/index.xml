@@ -7,9 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Damien Narbais</copyright>
+    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cdpsvmlinux</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/tags/cdpsvmlinux/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/tags/cdpsvmlinux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tensorflow Ros</title>

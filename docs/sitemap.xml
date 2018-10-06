@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/2018/09/03/cdps_tp1/</loc>
+    <lastmod>2018-09-03T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/2018/04/23/participation_robocup/</loc>
     <lastmod>2018-04-23T00:00:00+02:00</lastmod>
   </url>
@@ -44,6 +49,12 @@
   </url>
   
   <url>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/tags/cdpsvmlinux/</loc>
+    <lastmod>2018-09-03T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/page/</loc>
     <lastmod>2017-01-20T02:13:50+00:00</lastmod>
     <priority>0</priority>
@@ -51,7 +62,7 @@
   
   <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/post/</loc>
-    <lastmod>2018-04-23T00:00:00+02:00</lastmod>
+    <lastmod>2018-09-03T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -63,6 +74,7 @@
   
   <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/tags/</loc>
+    <lastmod>2018-09-03T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cdpsvmlinux on Accueil Damien Narbais</title>
+    <link>https://zapata1.github.io/NarbaisDamienBlog/tags/cdpsvmlinux/</link>
+    <description>Recent content in Cdpsvmlinux on Accueil Damien Narbais</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Damien Narbais</copyright>
+    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/tags/cdpsvmlinux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TP - Créer et gérer des machines virtuelles, Linux (VM)</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/2018/09/03/cdps_tp1/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/2018/09/03/cdps_tp1/</guid>
+      <description>Objectif du TP Prise en main, compréhension et comparaison de différents types de machines virtuelles. - Connaitre les principes de base de la virtualisation Linux, avec KVM et LXC - Gerer des machines virtuelles en utilisant une interface graphique et la ligne de commande
+1 - Gestion de VM KVM avec une interface graphique On a commencé par créer des VM au format raw.
+On a ensuite utilise le format QCOW2.</description>
+    </item>
+    
+  </channel>
+</rss>

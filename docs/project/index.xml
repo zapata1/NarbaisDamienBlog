@@ -31,11 +31,9 @@ Ici, peut être que Tom n&amp;rsquo;a pas aimé ce titre, et c&amp;rsquo;est tou
       <pubDate>Tue, 20 Mar 2018 02:13:50 +0000</pubDate>
       
       <guid>https://zapata1.github.io/NarbaisDamienBlog/project/faire_heberger_site_hugo_git/</guid>
-      <description>Introduction to Hugo Hugo is [&amp;hellip;]
-Pour le thème que j&amp;rsquo;utilise il faut :
--installer npm
--la derniere version de node.js
- $wget -qO- https://deb.nodesource.com/setup_8.x | sudo bash - $sudo apt-get install -y nodejs  -gérer le webpack</description>
+      <description>Introduction Bonjour à toutes et à tous !
+Dans cet article, nous allons voir comment créer son site web en seulement 10 étapes. C’est accessible à tout le monde (que vous ayez déjà fait ou non de l’informatique). Cela dure environ 1h00 et vous pouvez le faire en plusieurs fois donc : lancez-vous !
+Etape 0 : Les outils utilisés Avant de débuter, je voulais vous présenter rapidement les outils que nous allons utiliser.</description>
     </item>
     
     <item>
