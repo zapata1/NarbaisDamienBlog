@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/2018/09/04/siba_ml/</loc>
+    <lastmod>2018-09-04T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/2018/09/03/cdps_tp1/</loc>
     <lastmod>2018-09-03T00:00:00+02:00</lastmod>
   </url>
@@ -62,13 +67,19 @@
   
   <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/post/</loc>
-    <lastmod>2018-09-03T00:00:00+02:00</lastmod>
+    <lastmod>2018-09-04T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://zapata1.github.io/NarbaisDamienBlog/project/</loc>
     <lastmod>2018-09-30T02:13:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zapata1.github.io/NarbaisDamienBlog/tags/sibamlmachine-learning-weka/</loc>
+    <lastmod>2018-09-04T00:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   

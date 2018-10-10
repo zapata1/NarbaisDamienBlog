@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Damien Narbais</copyright>
-    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://zapata1.github.io/NarbaisDamienBlog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Learning : concepte de base</title>
+      <link>https://zapata1.github.io/NarbaisDamienBlog/2018/09/04/siba_ml/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://zapata1.github.io/NarbaisDamienBlog/2018/09/04/siba_ml/</guid>
+      <description>Machine Learning * Les valeurs Tout d&amp;rsquo;abord, on peut retrouver deux types de valeur : - les continues : numériques (13,-71&amp;hellip;) - les discrètes : nominales (ensoleillé,gris&amp;hellip;)
+* Différents conceptes  la classification (supervisée) qui consiste à classifier des nouvelles données, en ayant auparavant, eu des exemples. la prediction numérique (supervisée) qui prédit un nombre selon les attributs de la nouvelle données le regroupement (non supervisé) qui classe les données en différentes catégories selection/transformation d&amp;rsquo;attribut ( (non) supervisé) association (supervisé) ici, le système apprend les relations entre les attributs  * Les types de classification Il en existe beaucoup, et je vais d&amp;rsquo;abord vous parler des plus basiques.</description>
+    </item>
     
     <item>
       <title>TP - Créer et gérer des machines virtuelles, Linux (VM)</title>

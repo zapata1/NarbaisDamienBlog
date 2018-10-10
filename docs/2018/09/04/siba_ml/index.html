@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Machine Learning : concepte de base &middot; Damien Narbais</title>
+        <meta name="description" content="Etude de differents types d&#39;apprentissage/de classification">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.40" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Machine Learning : concepte de base">
+<meta property="og:description" content="Etude de differents types d&#39;apprentissage/de classification">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://zapata1.github.io/NarbaisDamienBlog/2018/09/04/siba_ml/">
+        <link rel="stylesheet" href="https://zapata1.github.io/NarbaisDamienBlog/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+    </head>
+    <body>
+        
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'XXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="Accueil Damien Narbais" href="https://zapata1.github.io/NarbaisDamienBlog/">Accueil Damien Narbais</a>
+                            </h1>
+                        
+
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/zapata1">
+                                <i class="fa fa-github-alt"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/in/damien-narbais-jaureguy/">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" title="Email" href="mailto:damien.narbais@gmail.com">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a title="Blog" href="https://zapata1.github.io/NarbaisDamienBlog/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Projects" href="https://zapata1.github.io/NarbaisDamienBlog/project/">Projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="A propos" href="https://zapata1.github.io/NarbaisDamienBlog/page/about/">A propos</a>
+    </li>
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Machine Learning : concepte de base</h1>
+    
+        <p class="post-description" itemprop="description">Etude de differents types d&#39;apprentissage/de classification</p>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2018-09-04" itemprop="datePublished">Tue, Sep 4, 2018</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="https://google.com/&#43;XXX" itemprop="url" rel="author">Damien Narbais</a>
+            </span>
+        </span>
+    </p>
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    
+
+<h1 id="machine-learning">Machine Learning</h1>
+
+<h2 id="les-valeurs">* Les valeurs</h2>
+
+<p>Tout d&rsquo;abord, on peut retrouver deux types de <strong>valeur</strong> :
+- les <strong>continues</strong> : numériques (13,-71&hellip;)
+- les <strong>discrètes</strong> : nominales (ensoleillé,gris&hellip;)</p>
+
+<h2 id="différents-conceptes">* Différents conceptes</h2>
+
+<ul>
+<li><strong>la classification</strong> <em>(supervisée)</em> qui consiste à classifier des nouvelles données, en ayant auparavant, eu des exemples.</li>
+<li><strong>la prediction numérique</strong> <em>(supervisée)</em> qui prédit un nombre selon les attributs de la nouvelle données</li>
+<li><strong>le regroupement</strong> <em>(non supervisé)</em> qui classe les données en différentes catégories</li>
+<li><strong>selection/transformation d&rsquo;attribut</strong> <em>( (non) supervisé)</em></li>
+<li><strong>association</strong> <em>(supervisé)</em> ici, le système apprend les relations entre les attributs</li>
+</ul>
+
+<h2 id="les-types-de-classification">* Les types de classification</h2>
+
+<p>Il en existe beaucoup, et je vais d&rsquo;abord vous parler des plus basiques.<br />
+<em>parfois les plus basiques sont les meilleurs &hellip;</em></p>
+
+<h3 id="zero-rule-0-r-a-priori">Zero-Rule / 0-R / A priori :</h3>
+
+<p>C&rsquo;est le plus simple. Il regarde seulement le résultat final qu&rsquo;il y a dans les données, et non leurs attributs.<br />
+Par exemple, s&rsquo;il y a 20 cas &ldquo;oui&rdquo; et 10 cas &ldquo;non&rdquo;, l&rsquo;algoritme dira toujours &ldquo;oui&rdquo;. Ici le taux de réussitte est de 66%.</p>
+
+<p>Il permet d&rsquo;avoir une base sur le pourcentage d&rsquo;erreur que l&rsquo;on peut obtenir avec du machine learning.</p>
+
+<h3 id="1-r">1-R :</h3>
+
+<p>Il choisit le meilleur attribut, i.e. celui qui fait le moins d&rsquo;erreurs.<br />
+S&rsquo;il il manque une donnée, il la remplace par &ldquo;missing&rdquo;.</p>
+
+<p>Si il s&rsquo;agit de données numériques :<br />
+1- il commence par trié les données dans l&rsquo;ordre croissant</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">64</th>
+<th align="center">65</th>
+<th align="center">68</th>
+<th>69</th>
+<th>70</th>
+<th>72</th>
+<th>75</th>
+<th>75</th>
+<th>80</th>
+<th>81</th>
+<th>83</th>
+<th>92</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">oui</td>
+<td align="center">non</td>
+<td align="center">oui</td>
+<td>oui</td>
+<td>oui</td>
+<td>non</td>
+<td>non</td>
+<td>oui</td>
+<td>oui</td>
+<td>oui</td>
+<td>non</td>
+<td>oui</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="naïve-bayes">Naïve Bayes :</h3>
+
+<h3 id="les-arbres">Les arbres :</h3>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="https://zapata1.github.io/NarbaisDamienBlog/tags/sibamlmachine-learning-weka/">SIBA,ML,Machine Learning, Weka</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=Machine%20Learning%20%3a%20concepte%20de%20base&url=https%3a%2f%2fzapata1.github.io%2fNarbaisDamienBlog%2f2018%2f09%2f04%2fsiba_ml%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzapata1.github.io%2fNarbaisDamienBlog%2f2018%2f09%2f04%2fsiba_ml%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fzapata1.github.io%2fNarbaisDamienBlog%2f2018%2f09%2f04%2fsiba_ml%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "XXX" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="Accueil Damien Narbais" href="https://zapata1.github.io/NarbaisDamienBlog/">Accueil Damien Narbais</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2018 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://zapata1.github.io/NarbaisDamienBlog/js/jquery-1.11.3.min.js"></script>
+        <script src="https://zapata1.github.io/NarbaisDamienBlog/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://zapata1.github.io/NarbaisDamienBlog/js/scripts.js"></script>
+    </body>
+</html>
+
