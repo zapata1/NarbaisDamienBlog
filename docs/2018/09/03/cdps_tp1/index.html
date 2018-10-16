@@ -194,26 +194,26 @@ Certaines balises en contiennent d&rsquo;autres. Chacune d&rsquo;elle contient d
 
 <tr>
 <td align="center">os</td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">Contient les paramètres du système opérationnel pour initier la VM. Il contient le type de l&rsquo;OS, le type de la machine..</td>
+<td align="center">L&rsquo;architecture du CPU est &lsquo;x86_64’. LA machine est &lsquo;pc-i440fx-xenial&rsquo;. Et &lsquo;hvm&rsquo; est notre type de virtualisation</td>
 </tr>
 
 <tr>
-<td align="center">festures</td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">features</td>
+<td align="center">Une longue liste de caractéristiques que nous pouvons activées ou désactivées</td>
+<td align="center">ACPI est utile pour la gestion de l&rsquo;énergie. Par exemple, avec les invités KVM, nous avons besoin d&rsquo;une fermeture progressive pour travailler.</td>
 </tr>
 
 <tr>
 <td align="center">cpu</td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">C&rsquo;est le conteneur principale pour décrire les pré-requis du CPU invité</td>
+<td align="center">Dans notre exemple, le CPU virtuel fourni à la machine invitée doit correspondre exactement aux besoins du CPU. (<match> =&lsquo;exact&rsquo;). Un invité persistant verra le même matériel quel que soit l&rsquo;hôte sur lequel il démarre. (<mode> =&lsquo;personnalisé&rsquo;)</td>
 </tr>
 
 <tr>
 <td align="center">devices</td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">Cette balise mentionne les dispositifs du domaine invité. Tous sont hérités du dispositif principal (émulateur, disque, controleur, son, vidéo &hellip;)</td>
+<td align="center">X</td>
 </tr>
 </tbody>
 </table>

@@ -48,8 +48,8 @@ Certaines balises en contiennent d'autres. Chacune d'elle contient des élément
 | currentMemory  | C'est la mémoire acutelle de la VM. Elle peut être inférieur à la taille de la *memory*. S'il n'y a pas d'indication, c'est qu'elle fait la même taille que la *memory*. C'est la même unité que pour la *memory*  | 2097159  |
 | vcpu  | C'est le nombre de CPU maximum que peut avoir la VM | 2 |
 | ressource  | Le superviseur peut accepter de partitionner la VM. Il y a en toujours une par défault. | Dans notre exemple, on n'a pas spécifié de partition, donc c'est celle par défaut qui est utilisée. |
-| os  |   |   |
-| festures  |   |   |
-| cpu  |   |   |
-| devices  |   |   |
+| os  | Contient les paramètres du système opérationnel pour initier la VM. Il contient le type de l'OS, le type de la machine..  | L'architecture du CPU est 'x86_64’. LA machine est 'pc-i440fx-xenial'. Et 'hvm' est notre type de virtualisation  |
+| features  | Une longue liste de caractéristiques que nous pouvons activées ou désactivées  | ACPI est utile pour la gestion de l'énergie. Par exemple, avec les invités KVM, nous avons besoin d'une fermeture progressive pour travailler.  |
+| cpu  | C'est le conteneur principale pour décrire les pré-requis du CPU invité  | Dans notre exemple, le CPU virtuel fourni à la machine invitée doit correspondre exactement aux besoins du CPU. (<match> ='exact'). Un invité persistant verra le même matériel quel que soit l'hôte sur lequel il démarre. (<mode> ='personnalisé')  |
+| devices  | Cette balise mentionne les dispositifs du domaine invité. Tous sont hérités du dispositif principal (émulateur, disque, controleur, son, vidéo ...)  | X  |
 *Toutes les balises non pas été expliquées dans ce tableau*
