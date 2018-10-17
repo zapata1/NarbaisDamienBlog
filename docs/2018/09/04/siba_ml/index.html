@@ -178,9 +178,45 @@ S&rsquo;il il manque une donnée, il la remplace par &ldquo;missing&rdquo;.</p>
 </tbody>
 </table>
 
+<p><strong>[A TERMINER]</strong></p>
+
 <h3 id="naïve-bayes">Naïve Bayes :</h3>
 
+<p>On va utiliser tous les attributs.
+Pour cela, on suppose ici que tous les attributs sont indépendants.
+<strong>[FORMULE]</strong><br />
+Ensuite à l&rsquo;aide de formule de probabilité, dont le likelihood, on détermine le résultat que l&rsquo;on devrai obtenir.</p>
+
+<p>S&rsquo;il manque un attribut, ce n&rsquo;est pas important car on le prendra pas en compte dans la formule, ce qui ne change rien.<br />
+Par contre, si un attribut a une valeur de 0, cela pose un problème car dans nos calculs, on va retrouver un 0.<br />
+Pour remedier à cela, on ajoute +1 à tous les attributs (technique appelé estimateur de Laplace). Ou simplement, on exige d&rsquo;avoir un exemple pour chaque cas.</p>
+
+<p>Quand les données sont numériques, on utilise une gaussienne, qui nous permet de calculer ce fameux likelihood.</p>
+
+<p>En général, il faut auparavant, bien filtrer les attributs.</p>
+
 <h3 id="les-arbres">Les arbres :</h3>
+
+<p>Les arbres essayent de reproduire le chemin général que prennent les données, en commençant par les attributs qui sont les plus révélateurs.<br />
+Pour cela, on a besoin de 5 calculs, pour chaque attribut. Ainsi, on détermine lequel a le plus d&rsquo;impact, et le plus susceptible de déterminer la classe du nouvel objet.</p>
+
+<ol>
+<li>Le Gain  <strong>[FORMULE]</strong>. Plus il est grand mieux c&rsquo;est.</li>
+<li>L&rsquo;info[], qui se calcul grâce à l&rsquo;entropie. <strong>[FORMULE]</strong> Le plus proche de 0 possible.</li>
+<li>Le split info <strong>[FORMULE]</strong></li>
+<li>Gain ratio <strong>[FORMULE]</strong>. On prend le plus haut taux.</li>
+</ol>
+
+<p><em>Remarque : si le gain est important, alors l&rsquo;info sera petit</em></p>
+
+<h3 id="regression-linéale">Regression linéale :</h3>
+
+<p>On essaie de minimiser l&rsquo;erreur quadratique. (On peut utiliser des matrices).<br />
+On peut aussi utiliser le processus de Stocastic gradient decent.</p>
+
+<h3 id="classification-linéale">Classification linéale :</h3>
+
+<p>Se base sur la regression linéale</p>
 
 </div>
 

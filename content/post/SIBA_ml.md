@@ -44,10 +44,43 @@ Si il s'agit de données numériques :
 |:-:|:-:|:-:|---|---|---|---|---|---|---|---|---|
 | oui  |  non | oui  |  oui | oui  | non  | non  | oui  | oui  | oui  | non  | oui  |
 
-
+**[A TERMINER]**
 
 
 
 ### Naïve Bayes :
 
+On va utiliser tous les attributs.
+Pour cela, on suppose ici que tous les attributs sont indépendants.
+**[FORMULE]**  
+Ensuite à l'aide de formule de probabilité, dont le likelihood, on détermine le résultat que l'on devrai obtenir.
+
+S'il manque un attribut, ce n'est pas important car on le prendra pas en compte dans la formule, ce qui ne change rien.   
+Par contre, si un attribut a une valeur de 0, cela pose un problème car dans nos calculs, on va retrouver un 0.   
+Pour remedier à cela, on ajoute +1 à tous les attributs (technique appelé estimateur de Laplace). Ou simplement, on exige d'avoir un exemple pour chaque cas.
+
+Quand les données sont numériques, on utilise une gaussienne, qui nous permet de calculer ce fameux likelihood.
+
+En général, il faut auparavant, bien filtrer les attributs.
+
 ### Les arbres :
+
+Les arbres essayent de reproduire le chemin général que prennent les données, en commençant par les attributs qui sont les plus révélateurs.   
+Pour cela, on a besoin de 5 calculs, pour chaque attribut. Ainsi, on détermine lequel a le plus d'impact, et le plus susceptible de déterminer la classe du nouvel objet.
+
+1. Le Gain  **[FORMULE]**. Plus il est grand mieux c'est.
+2. L'info[], qui se calcul grâce à l'entropie. **[FORMULE]** Le plus proche de 0 possible.
+3.  Le split info **[FORMULE]**
+4. Gain ratio **[FORMULE]**. On prend le plus haut taux.
+
+*Remarque : si le gain est important, alors l'info sera petit*
+
+### Regression linéale :
+
+On essaie de minimiser l'erreur quadratique. (On peut utiliser des matrices).   
+On peut aussi utiliser le processus de Stocastic gradient decent.
+
+
+### Classification linéale :
+
+Se base sur la regression linéale
